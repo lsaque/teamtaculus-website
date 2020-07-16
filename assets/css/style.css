@@ -1,23 +1,111 @@
   /* TeamTaculus - Robocup */
-
+  
   @charset "UTF-8";
-
   body {
-    background: #eee;
+      background: #eee;
+      max-width: 1920px;
+      margin: auto;
+      font-family: 'Raleway', sans-serif;
   }
-
+  
+  .container {
+      max-width: 1500px;
+  }
+  
   section {
-    height: 300px;
+      height: 100vh;
   }
-
+  
   section:nth-child(odd) {
-    background-color: #ee8;
+      background-color: #ee8;
   }
-
+  
   section:nth-child(even) {
-    background-color: #efe;
+      background-color: #efe;
   }
-
+  
   footer {
-    text-align: center;
+      text-align: center;
+  }
+  /*=============================================
+  =            Nav - Estilização            =
+  =============================================*/
+  
+  nav {
+      height: 100px;
+      font-size: 20px;
+  }
+  
+  nav ul .nav-item .nav-link {
+      color: white;
+      margin: 0 15px;
+  }
+  
+  nav ul .nav-item .botao-nav {
+      color: #1F143F;
+      background-color: white;
+      /* padding: 10px 0; */
+      width: 190px;
+      margin: auto;
+      border-radius: 26px;
+  }
+  /*=============================================
+  =            Inicio - Estilização            =
+  =============================================*/
+  
+  #inicio {
+      /* height: 1920px; */
+      background-image: url(../img/Inicio/Background.png);
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-attachment: fixed;
+      object-fit: cover;
+      min-height: 100vh;
+  }
+  
+  #inicio .container .row {
+      min-height: 100vh;
+      align-items: center;
+  }
+  
+  #inicio .container .row h1 {
+      font-size: 76px;
+      color: white;
+      font-weight: bolder;
+  }
+  
+  #inicio .container .row h3 {
+      font-size: 71px;
+      color: white;
+      font-weight: lighter;
+  }
+  
+  #inicio .container .row span {
+      border-left: 3px solid #16D0D3;
+      display: block;
+      margin-bottom: 7%;
+      border-radius: 2px;
+  }
+  
+  #inicio .container .row span p {
+      font-size: 20px;
+      margin-left: 30px;
+      color: white;
+      font-weight: normal;
+  }
+  
+  #inicio .container .row a {
+      color: white;
+      font-size: 20px;
+      width: 229px;
+      border-radius: 26px;
+      padding: 10px 45px;
+      text-transform: uppercase;
+      /* Colocar gradient */
+      border: 1px solid #16D0D3;
+  }
+  
+  #inicio .container .row img {
+      /* border: 1px solid red; */
+      max-width: 100%;
   }
