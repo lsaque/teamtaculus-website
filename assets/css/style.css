@@ -1,0 +1,23 @@
+  /* TeamTaculus - Robocup */
+
+  @charset "UTF-8";
+
+  body {
+    background: #eee;
+  }
+
+  section {
+    height: 300px;
+  }
+
+  section:nth-child(odd) {
+    background-color: #ee8;
+  }
+
+  section:nth-child(even) {
+    background-color: #efe;
+  }
+
+  footer {
+    text-align: center;
+  }
