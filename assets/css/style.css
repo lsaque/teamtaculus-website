@@ -109,12 +109,13 @@
   
   #projeto {
       background-color: #F1F1F1;
-      min-height: 100vh;
+      max-height: 1920px;
   }
   
   #projeto .container .row {
       padding-top: 90px;
       text-align: center;
+      padding-bottom: 150px;
   }
   
   #projeto .container .row hr {
@@ -143,6 +144,7 @@
   #projeto .container .row ul {
       margin-top: 10%;
       list-style-type: none;
+      margin-bottom: 400px;
   }
   
   #projeto .container .row ul li {
@@ -175,4 +177,89 @@
       font-size: 20px;
       font-weight: normal;
       margin: auto;
+  }
+  /*=============================================
+  =        Projeto Module - Estilização         =
+  =============================================*/
+  
+  .projeto-module {
+      margin-top: -270px !important;
+      max-width: 1600px;
+      margin: auto;
+      border-radius: 89px;
+      height: 550px;
+      z-index: 99;
+  }
+  
+  .projeto-module .container-fluid .row {
+      height: 550px;
+      max-width: 1600px;
+      margin: auto;
+  }
+  
+  .projeto-module .container-fluid .row .left-content {
+      background-image: url(../img/Projeto-module/left-content.jpg);
+      background-position: center;
+      background-size: cover;
+      filter: grayscale(100%);
+      border-top-left-radius: 89px;
+      border-bottom-left-radius: 89px;
+      box-shadow: 3px -15px 30px rgba(0, 0, 0, 0.16);
+  }
+  
+  .projeto-module .container-fluid .row .left-content iframe {
+      width: 128%;
+      height: 100%;
+      margin: auto;
+      /* background-size: contain; */
+      border-top-left-radius: 89px;
+      border-bottom-left-radius: 89px;
+  }
+  
+  .projeto-module .container-fluid .row .right-content {
+      background-color: #6220D9;
+      background-image: url(../img/Projeto-module/tentaculo.svg);
+      background-size: cover;
+      border-top-right-radius: 89px;
+      border-bottom-right-radius: 89px;
+      box-shadow: 3px -15px 30px rgba(0, 0, 0, 0.16);
+  }
+  
+  .projeto-module .container-fluid .row .right-content .internal-content {
+      margin: 13%;
+  }
+  
+  .projeto-module .container-fluid .row .right-content .internal-content h3 {
+      font-size: 66px;
+      color: white;
+      font-weight: bolder;
+  }
+  
+  .projeto-module .container-fluid .row .right-content .internal-content h4 {
+      font-size: 61px;
+      color: white;
+      font-weight: lighter;
+  }
+  
+  .projeto-module .container-fluid .row .right-content .internal-content span {
+      border-left: 3px solid #16D0D3;
+      display: block;
+      max-width: 500px;
+      margin-bottom: 7%;
+      border-radius: 2px;
+  }
+  
+  .projeto-module .container-fluid .row .right-content .internal-content span p {
+      font-size: 20px;
+      margin-left: 30px;
+      color: white;
+      font-weight: normal;
+  }
+  /*=============================================
+  =            Competição - Estilização            =
+  =============================================*/
+  
+  #competicao {
+      background-color: #FFFFFF;
+      min-height: 100vh;
   }
