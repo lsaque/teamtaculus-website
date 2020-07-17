@@ -10,17 +10,6 @@
   .container {
       max-width: 1500px;
   }
-  /* section {
-      height: 100vh;
-  }
-  
-  section:nth-child(odd) {
-      background-color: #ee8;
-  }
-  
-  section:nth-child(even) {
-      background-color: #efe;
-  } */
   
   footer {
       text-align: center;
@@ -42,7 +31,6 @@
   nav ul .nav-item .botao-nav {
       color: #1F143F;
       background-color: white;
-      /* padding: 10px 0; */
       width: 190px;
       margin: auto;
       border-radius: 26px;
@@ -89,7 +77,8 @@
       font-weight: normal;
   }
   
-  #inicio .container .row a {
+  #inicio .container .row a,
+  .button-estilization {
       color: white;
       font-size: 20px;
       width: 229px;
@@ -112,13 +101,13 @@
       max-height: 1920px;
   }
   
-  #projeto .container .row {
+  #projeto .row {
       padding-top: 90px;
       text-align: center;
       padding-bottom: 150px;
   }
   
-  #projeto .container .row hr {
+  #projeto hr {
       width: 78px;
       height: 4px;
       background-color: #15D2D5;
@@ -126,7 +115,7 @@
       border-radius: 26px;
   }
   
-  #projeto .container .row h3 {
+  #projeto h3 {
       font-weight: bolder;
       font-size: 54px;
       margin-bottom: 0;
@@ -134,26 +123,26 @@
       text-transform: uppercase;
   }
   
-  #projeto .container .row p {
+  #projeto p {
       font-weight: normal;
       font-size: 49px;
       margin-bottom: 9px;
       color: #41516A;
   }
   
-  #projeto .container .row ul {
+  #projeto ul {
       margin-top: 10%;
       list-style-type: none;
       margin-bottom: 400px;
   }
   
-  #projeto .container .row ul li {
+  #projeto ul li {
       max-width: 250px;
       margin: auto 15px;
       display: inline-block;
   }
   
-  #projeto .container .row ul li i {
+  #projeto ul li i {
       background-color: white;
       border-radius: 50px;
       height: 100px;
@@ -165,14 +154,14 @@
       vertical-align: auto;
   }
   
-  #projeto .container .row ul li h4 {
+  #projeto ul li h4 {
       font-weight: bolder;
       font-size: 27px;
       color: #40546D;
       margin-bottom: 50px;
   }
   
-  #projeto .container .row ul li p {
+  #projeto ul li p {
       color: #40546D;
       font-size: 20px;
       font-weight: normal;
@@ -184,20 +173,20 @@
   
   .projeto-module {
       margin-top: -270px !important;
-      max-width: 1600px;
+      max-width: 1700px;
       margin: auto;
       border-radius: 89px;
       height: 550px;
       z-index: 99;
   }
   
-  .projeto-module .container-fluid .row {
+  .projeto-module .row {
       height: 550px;
-      max-width: 1600px;
+      max-width: 1700px;
       margin: auto;
   }
   
-  .projeto-module .container-fluid .row .left-content {
+  .projeto-module .left-content {
       background-image: url(../img/Projeto-module/left-content.jpg);
       background-position: center;
       background-size: cover;
@@ -207,16 +196,15 @@
       box-shadow: 3px -15px 30px rgba(0, 0, 0, 0.16);
   }
   
-  .projeto-module .container-fluid .row .left-content iframe {
+  .projeto-module .left-content iframe {
       width: 128%;
       height: 100%;
       margin: auto;
-      /* background-size: contain; */
       border-top-left-radius: 89px;
       border-bottom-left-radius: 89px;
   }
   
-  .projeto-module .container-fluid .row .right-content {
+  .projeto-module .right-content {
       background-color: #6220D9;
       background-image: url(../img/Projeto-module/tentaculo.svg);
       background-size: cover;
@@ -225,23 +213,26 @@
       box-shadow: 3px -15px 30px rgba(0, 0, 0, 0.16);
   }
   
-  .projeto-module .container-fluid .row .right-content .internal-content {
+  .projeto-module .internal-content {
       margin: 13%;
   }
   
-  .projeto-module .container-fluid .row .right-content .internal-content h3 {
+  .projeto-module h3,
+  .h3-estilization {
       font-size: 66px;
       color: white;
       font-weight: bolder;
   }
   
-  .projeto-module .container-fluid .row .right-content .internal-content h4 {
+  .projeto-module h4,
+  .h4-estilization {
       font-size: 61px;
       color: white;
       font-weight: lighter;
   }
   
-  .projeto-module .container-fluid .row .right-content .internal-content span {
+  .projeto-module span,
+  .span-estilization {
       border-left: 3px solid #16D0D3;
       display: block;
       max-width: 500px;
@@ -249,7 +240,8 @@
       border-radius: 2px;
   }
   
-  .projeto-module .container-fluid .row .right-content .internal-content span p {
+  .projeto-module span p,
+  .p-estilization {
       font-size: 20px;
       margin-left: 30px;
       color: white;
@@ -262,4 +254,20 @@
   #competicao {
       background-color: #FFFFFF;
       min-height: 100vh;
+  }
+  
+  #competicao .internal-content,
+  #competicao img {
+      margin: 20% auto;
+  }
+  
+  #competicao h3,
+  #competicao h4,
+  #competicao span p,
+  #competicao .button-estilization {
+      color: #3F5770;
+  }
+  
+  #competicao img {
+      max-width: 100%;
   }
