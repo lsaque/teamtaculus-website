@@ -8,7 +8,7 @@
   }
   
   .container {
-      max-width: 1500px;
+      max-width: 93.75rem;
   }
   
   footer {
@@ -19,19 +19,20 @@
   =============================================*/
   
   nav {
-      height: 100px;
-      font-size: 20px;
+      background-color: black;
+      height: 6.25rem;
+      font-size: 1.25rem;
   }
   
   nav ul .nav-item .nav-link {
       color: white;
-      margin: 0 15px;
+      margin: 0 0.938rem;
   }
   
   nav ul .nav-item .botao-nav {
       color: #1F143F;
       background-color: white;
-      width: 190px;
+      width: 11.875rem;
       margin: auto;
       border-radius: 26px;
   }
@@ -44,52 +45,52 @@
       background-position: top center;
       background-size: cover;
       background-attachment: fixed;
+      height: auto;
   }
   
-  #inicio .container .row {
+  #inicio .row {
       min-height: 100vh;
       align-items: center;
   }
   
-  #inicio .container .row h1 {
-      font-size: 76px;
+  #inicio h1 {
+      /* font-size: 4.75rem; */
       color: white;
       font-weight: bolder;
   }
   
-  #inicio .container .row h2 {
-      font-size: 71px;
+  #inicio h2 {
+      /* font-size: 4.438rem; */
       color: white;
       font-weight: lighter;
   }
   
-  #inicio .container .row span {
+  #inicio span {
       border-left: 3px solid #16D0D3;
       display: block;
       margin-bottom: 7%;
       border-radius: 2px;
   }
   
-  #inicio .container .row span p {
-      font-size: 20px;
+  #inicio span p {
+      /* font-size: 1.25rem; */
       margin-left: 30px;
       color: white;
       font-weight: normal;
   }
   
-  #inicio .container .row a,
+  #inicio a,
   .button-estilization {
       color: white;
-      font-size: 20px;
-      width: 229px;
+      font-size: 1.25rem;
       border-radius: 26px;
-      padding: 10px 45px;
+      padding: 1.5% 7%;
       text-transform: uppercase;
       /* Colocar gradient */
       border: 1px solid #16D0D3;
   }
   
-  #inicio .container .row img {
+  #inicio img {
       max-width: 100%;
   }
   /*=============================================
@@ -98,13 +99,13 @@
   
   #projeto {
       background-color: #F1F1F1;
-      max-height: 1920px;
+      max-height: 120rem;
   }
   
   #projeto .row {
-      padding-top: 90px;
+      padding-top: 5.625rem;
       text-align: center;
-      padding-bottom: 150px;
+      padding-bottom: 9.375rem;
   }
   
   #projeto hr {

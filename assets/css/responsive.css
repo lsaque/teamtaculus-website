@@ -1,0 +1,69 @@
+/*=============================================
+=            Responsive Layout                =
+=============================================*/
+
+@media screen and (max-width:1600px) {
+    #inicio .container {
+        padding: 3%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #inicio img {
+        max-width: 85%;
+    }
+    #inicio h1 {
+        font-size: 66px;
+    }
+    #inicio h2 {
+        font-size: 61px;
+    }
+    #inicio span p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #inicio img {
+        max-width: 85%;
+    }
+    #inicio h1 {
+        font-size: 62px;
+    }
+    #inicio h2 {
+        font-size: 58px;
+    }
+    #inicio span p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #inicio .row {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #inicio {
+        /* border: 1px solid red; */
+    }
+    #inicio img {
+        max-width: 30%;
+    }
+    #inicio h1 {
+        font-size: 42px;
+    }
+    #inicio h2 {
+        font-size: 38px;
+    }
+    #inicio span p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width:320px) {}
