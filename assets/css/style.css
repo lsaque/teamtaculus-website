@@ -20,8 +20,10 @@
   
   nav {
       background-color: black;
-      height: 6.25rem;
-      font-size: 1.25rem;
+      height: 5rem;
+      /* font-size: 1.25rem; */
+      font-size: calc(0.9rem + 0.2vw);
+      /* font-size: calc(1.25rem + 0.1vw); */
   }
   
   nav ul .nav-item .nav-link {
@@ -57,12 +59,14 @@
       /* font-size: 4.75rem; */
       color: white;
       font-weight: bolder;
+      font-size: calc(1.525rem + 3.3vw);
   }
   
   #inicio h2 {
       /* font-size: 4.438rem; */
       color: white;
       font-weight: lighter;
+      font-size: calc(1.525rem + 3.3vw);
   }
   
   #inicio span {
@@ -74,13 +78,15 @@
   
   #inicio span p {
       /* font-size: 1.25rem; */
-      margin-left: 30px;
+      margin-left: 5%;
       color: white;
       font-weight: normal;
+      font-size: calc(1rem + 0.2vw);
   }
   
   #inicio a,
   .button-estilization {
+      text-decoration: none;
       color: white;
       font-size: 1.25rem;
       border-radius: 26px;
@@ -105,11 +111,12 @@
   #projeto .row {
       padding-top: 5.625rem;
       text-align: center;
-      padding-bottom: 9.375rem;
+      padding-bottom: 19.375rem;
   }
   
   #projeto hr {
-      width: 78px;
+      /* width: 78px; */
+      max-width: 3rem;
       height: 4px;
       background-color: #15D2D5;
       margin-bottom: 30px;
@@ -118,23 +125,32 @@
   
   #projeto h3 {
       font-weight: bolder;
-      font-size: 54px;
+      /* font-size: 3.375rem; */
+      font-size: calc(1.05rem + 2vw);
       margin-bottom: 0;
       color: #41516A;
       text-transform: uppercase;
+      text-align: center;
   }
   
   #projeto p {
       font-weight: normal;
-      font-size: 49px;
-      margin-bottom: 9px;
+      /* font-size: 3.0625rem; */
+      font-size: calc(1rem + 1.7vw);
+      margin-bottom: 2.5rem;
       color: #41516A;
+      text-align: center;
+  }
+  
+  #projeto .projeto-item {
+      height: 430px;
   }
   
   #projeto ul {
       margin-top: 10%;
       list-style-type: none;
       margin-bottom: 400px;
+      padding-inline-start: 0;
   }
   
   #projeto ul li {
@@ -164,8 +180,8 @@
   
   #projeto ul li p {
       color: #40546D;
-      font-size: 20px;
-      font-weight: normal;
+      font-size: 21px;
+      font-weight: lighter;
       margin: auto;
   }
   /*=============================================
@@ -195,6 +211,7 @@
       border-top-left-radius: 89px;
       border-bottom-left-radius: 89px;
       box-shadow: 3px -15px 30px rgba(0, 0, 0, 0.16);
+      padding: calc(3rem + 14.5vw);
   }
   
   .projeto-module .left-content iframe {
@@ -215,19 +232,23 @@
   }
   
   .projeto-module .internal-content {
-      margin: 13%;
+      /* margin: 7rem; */
+      /* margin: 18% 10%; */
+      margin: 6.5rem 9%;
   }
   
   .projeto-module h3,
   .h3-estilization {
-      font-size: 66px;
+      /* font-size: 4.125rem; */
+      font-size: calc(1.1rem + 2.6vw);
       color: white;
       font-weight: bolder;
   }
   
   .projeto-module h4,
   .h4-estilization {
-      font-size: 61px;
+      /* font-size: 3.8125rem; */
+      font-size: calc(1.1rem + 2.3vw);
       color: white;
       font-weight: lighter;
   }
@@ -243,23 +264,25 @@
   
   .projeto-module span p,
   .p-estilization {
-      font-size: 20px;
+      /* font-size: 1.25rem; */
+      font-size: calc(1rem + 0.2vw);
       margin-left: 30px;
       color: white;
       font-weight: normal;
   }
   /*=============================================
-  =            Competição - Estilização            =
+  =            Competição - Estilização         =
   =============================================*/
   
   #competicao {
       background-color: #FFFFFF;
       min-height: 100vh;
+      padding-top: 3rem;
   }
   
   #competicao .internal-content,
   #competicao img {
-      margin: 20% auto;
+      margin: 10% auto;
   }
   
   #competicao h3,

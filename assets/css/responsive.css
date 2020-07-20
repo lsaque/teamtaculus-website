@@ -2,67 +2,44 @@
 =            Responsive Layout                =
 =============================================*/
 
-@media screen and (max-width:1600px) {
-    #inicio .container {
-        padding: 3%;
-    }
-}
+@media screen and (max-width:1600px) {}
 
-@media screen and (max-width: 1300px) {
-    #inicio img {
-        max-width: 85%;
-    }
-    #inicio h1 {
-        font-size: 66px;
-    }
-    #inicio h2 {
-        font-size: 61px;
-    }
-    #inicio span p {
-        font-size: 16px;
-    }
-}
+@media screen and (max-width: 1300px) {}
 
-@media screen and (max-width: 1024px) {
-    #inicio img {
-        max-width: 85%;
-    }
-    #inicio h1 {
-        font-size: 62px;
-    }
-    #inicio h2 {
-        font-size: 58px;
-    }
-    #inicio span p {
-        font-size: 16px;
-    }
-}
+@media screen and (max-width: 1024px) {}
 
-@media screen and (max-width:1000px) {
-    #inicio .row {
-        height: 100vh;
-    }
-}
+@media screen and (max-width:1000px) {}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:993px) {
     #inicio {
-        /* border: 1px solid red; */
-    }
-    #inicio img {
-        max-width: 30%;
-    }
-    #inicio h1 {
-        font-size: 42px;
-    }
-    #inicio h2 {
-        font-size: 38px;
-    }
-    #inicio span p {
-        font-size: 14px;
+        padding-top: 6rem;
     }
 }
+
+@media screen and (max-width:991px) {
+    .projeto-module .left-content {
+        border-top-right-radius: 89px;
+        border-bottom-left-radius: 0;
+    }
+    .projeto-module .right-content {
+        border-bottom-left-radius: 89px;
+        border-top-right-radius: 0;
+    }
+    #competicao {
+        padding-top: 22rem;
+        margin: 0 3%;
+    }
+}
+
+@media screen and (max-width: 800px) {}
 
 @media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 575px) {
+    #projeto {
+        max-height: 165rem;
+    }
+}
 
 @media screen and (max-width: 480px) {}
 
