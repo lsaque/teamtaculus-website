@@ -211,7 +211,7 @@
       border-top-left-radius: 89px;
       border-bottom-left-radius: 89px;
       box-shadow: 3px -15px 30px rgba(0, 0, 0, 0.16);
-      padding: calc(3rem + 14.5vw);
+      padding: calc(3rem + 12vw);
   }
   
   .projeto-module .left-content iframe {
@@ -264,6 +264,7 @@
   
   .projeto-module span p,
   .p-estilization {
+      text-decoration: none;
       /* font-size: 1.25rem; */
       font-size: calc(1rem + 0.2vw);
       margin-left: 30px;
@@ -277,7 +278,7 @@
   #competicao {
       background-color: #FFFFFF;
       min-height: 100vh;
-      padding-top: 3rem;
+      padding-top: 8rem;
   }
   
   #competicao .internal-content,

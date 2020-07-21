@@ -2,6 +2,45 @@
 =            Responsive Layout                =
 =============================================*/
 
+@media screen and (min-width:1950px) {
+    nav {
+        font-size: 1.25rem;
+    }
+    #inicio h1 {
+        font-size: 4.75rem;
+    }
+    #inicio h2 {
+        font-size: 4.438rem;
+    }
+    #inicio span p {
+        font-size: 1.25rem;
+    }
+    #projeto h3 {
+        font-size: 3.375rem;
+    }
+    #projeto p {
+        font-size: 3.0625rem;
+    }
+    .projeto-module h3,
+    .h3-estilization {
+        font-size: 4.125rem;
+    }
+    .projeto-module h4,
+    .h4-estilization {
+        font-size: 3.8125rem;
+    }
+    .projeto-module span p,
+    .p-estilization {
+        font-size: 1.25rem;
+    }
+    .projeto-module .left-content {
+        padding: 1rem;
+    }
+    #competicao {
+        padding-top: 6.5rem;
+    }
+}
+
 @media screen and (max-width:1600px) {}
 
 @media screen and (max-width: 1300px) {}
@@ -32,6 +71,13 @@
 }
 
 @media screen and (max-width: 800px) {}
+
+@media screen and (max-width: 767px) {
+    #competicao {
+        padding-top: 13rem;
+        margin: 0 3%;
+    }
+}
 
 @media screen and (max-width: 600px) {}
 
