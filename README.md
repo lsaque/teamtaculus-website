@@ -1,13 +1,13 @@
 # TeamTaculus
 
-![Logo](https://i.ibb.co/MP2r2b9/Teamtaculus.png)
+![Logo](https://raw.githubusercontent.com/lsaque/teamtaculus-website/master/.github/Logo.png?token=AQFR7ADLCSU7ARCNR5YEF5K7EHVEM)
 
 >Teamtaculus is a team formed in college to participate in a robot competition. 
 This website is going to be a responsive page and will make a clear explanation about our robot.
 
 ## Prototype
 
-![Logo]()
+![Logo](https://github.com/lsaque/teamtaculus-website/blob/master/.github/Prot%C3%B3tipo.png?raw=true)
 > This one is the final prototype of our project 
 
 ## Development
