@@ -1,6 +1,7 @@
 // Se o usuário realizar a rolagem, trocar o menu transparente pelo colorido
 
   window.onscroll = function() { scrollFunction()};
+  window.onload = function() { scrollFunction()};
 
   function scrollFunction() {
 
