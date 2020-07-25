@@ -90,13 +90,13 @@
     background-position: center;
     background-size: cover;
     font-size: 1.25rem;
-    color: #313149;
-    padding: 15px 35px;
+    padding: 15px 75px;
     border: 1px solid transparent;
     display: inline-block;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
     outline: none;
+    transition: color 0.3s;
   }
 
   #inicio .btn-gradient:hover {
@@ -104,6 +104,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: rgba(255, 255, 255, 1);
   }
 
   .button-estilization {
@@ -310,10 +311,33 @@
   #competicao h3,
   #competicao h4,
   #competicao span p,
-  #competicao .button-estilization {
+  #competicao .btn-gradient {
       color: #3F5770;
   }
 
   #competicao img {
       max-width: 100%;
+  }
+
+  #competicao button {
+    background: url('../img/inicio/bg-button.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.25rem;
+    color: #313149;
+    padding: 15px 75px;
+    border: 1px solid transparent;
+    display: inline-block;
+    text-transform: uppercase;
+    outline: none;
+    transition: color 0.1s;
+  }
+
+  #competicao .btn-gradient:hover {
+    background: url('../img/inicio/bg-button-hover.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
   }
