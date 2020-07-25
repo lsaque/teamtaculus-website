@@ -29,15 +29,46 @@
   }
 
   nav {
-      height: 5rem;
-      /* font-size: 1.25rem; */
-      font-size: calc(0.9rem + 0.2vw);
-      /* font-size: calc(1.25rem + 0.1vw); */
+    height: 5.5rem;
+    /* font-size: 1.25rem; */
+    font-size: calc(0.9rem + 0.2vw);
+    /* font-size: calc(1.25rem + 0.1vw); */
+  }
+
+  nav .logo {
+    transition: all 0.5s linear;
+  }
+
+  nav .logo:hover {
+    filter: brightness(150%);
+    -webkit-filter: brightness(150%);
   }
 
   nav ul .nav-item .nav-link {
-      color: white;
-      margin: 0 0.938rem;
+    color: white;
+    margin: 0 0.938rem;
+    margin-top: 3.5px;
+  }
+
+  nav ul .nav-item .nav-link.nav-effect {
+    border-bottom: 1px solid transparent;
+  }
+
+  nav ul .nav-item a.nav-effect::after {
+    content: '';
+    display: block;
+    width: auto;
+    margin-top: 3.5px;
+    height: 2px;
+    width: 0px;
+    background-color: transparent;
+    transition: all ease-in-out 0.5s;
+  }
+
+  nav ul .nav-item a.nav-effect:hover::after {
+    background-color: #16D0D3;
+    width: 100%;
+    transition: 0.5s;
   }
 
   nav ul .nav-item .botao-nav {
@@ -45,6 +76,7 @@
       background-color: white;
       width: 11.875rem;
       margin: auto;
+      margin-top: 5px;
       border-radius: 26px;
   }
   /*=============================================
