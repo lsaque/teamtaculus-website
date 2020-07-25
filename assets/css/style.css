@@ -18,8 +18,17 @@
   =            Navbar - Estilização            =
   =============================================*/
 
+  .header-black {
+    background-color: #000;
+    transition: 0.75s;
+  }
+
+  .header-transparent {
+    background-color: transparent;
+    transition: 0.5s;
+  }
+
   nav {
-      background-color: black;
       height: 5rem;
       /* font-size: 1.25rem; */
       font-size: calc(0.9rem + 0.2vw);
