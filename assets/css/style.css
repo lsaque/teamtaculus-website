@@ -1,23 +1,23 @@
   /* TeamTaculus - Robocup */
-  
+
   @charset "UTF-8";
   body {
       max-width: 100vw;
       margin: auto;
       font-family: 'Raleway', sans-serif;
   }
-  
+
   .container {
       max-width: 93.75rem;
   }
-  
+
   footer {
       text-align: center;
   }
   /*=============================================
   =            Navbar - Estilização            =
   =============================================*/
-  
+
   nav {
       background-color: black;
       height: 5rem;
@@ -25,12 +25,12 @@
       font-size: calc(0.9rem + 0.2vw);
       /* font-size: calc(1.25rem + 0.1vw); */
   }
-  
+
   nav ul .nav-item .nav-link {
       color: white;
       margin: 0 0.938rem;
   }
-  
+
   nav ul .nav-item .botao-nav {
       color: #1F143F;
       background-color: white;
@@ -41,41 +41,41 @@
   /*=============================================
   =            Inicio - Estilização            =
   =============================================*/
-  
+
   #inicio {
-      background-image: url(../img/Inicio/Background.png);
+      background-image: url(../img/inicio/Background.png);
       background-position: top center;
       background-size: cover;
       background-attachment: fixed;
       height: auto;
   }
-  
+
   #inicio .row {
       min-height: 100vh;
       align-items: center;
   }
-  
+
   #inicio h1 {
       /* font-size: 4.75rem; */
       color: white;
       font-weight: bolder;
       font-size: calc(1.525rem + 3.3vw);
   }
-  
+
   #inicio h2 {
       /* font-size: 4.438rem; */
       color: white;
       font-weight: lighter;
       font-size: calc(1.525rem + 3.3vw);
   }
-  
+
   #inicio span {
       border-left: 3px solid #16D0D3;
       display: block;
       margin-bottom: 7%;
       border-radius: 2px;
   }
-  
+
   #inicio span p {
       /* font-size: 1.25rem; */
       margin-left: 5%;
@@ -83,8 +83,29 @@
       font-weight: normal;
       font-size: calc(1rem + 0.2vw);
   }
-  
-  #inicio a,
+
+  #inicio button {
+    background: url('../img/inicio/bg-button.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.25rem;
+    color: #313149;
+    padding: 15px 35px;
+    border: 1px solid transparent;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+  }
+
+  #inicio .btn-gradient:hover {
+    background: url('../img/inicio/bg-button-hover.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
   .button-estilization {
       text-decoration: none;
       color: white;
@@ -95,25 +116,25 @@
       /* Colocar gradient */
       border: 1px solid #16D0D3;
   }
-  
+
   #inicio img {
       max-width: 100%;
   }
   /*=============================================
   =            Projeto - Estilização            =
   =============================================*/
-  
+
   #projeto {
       background-color: #F1F1F1;
       max-height: 120rem;
   }
-  
+
   #projeto .row {
       padding-top: 5.625rem;
       text-align: center;
       padding-bottom: 19.375rem;
   }
-  
+
   #projeto hr {
       /* width: 78px; */
       max-width: 3rem;
@@ -122,7 +143,7 @@
       margin-bottom: 30px;
       border-radius: 26px;
   }
-  
+
   #projeto h3 {
       font-weight: bolder;
       /* font-size: 3.375rem; */
@@ -132,7 +153,7 @@
       text-transform: uppercase;
       text-align: center;
   }
-  
+
   #projeto p {
       font-weight: normal;
       /* font-size: 3.0625rem; */
@@ -141,24 +162,24 @@
       color: #41516A;
       text-align: center;
   }
-  
+
   #projeto .projeto-item {
       height: 430px;
   }
-  
+
   #projeto ul {
       margin-top: 10%;
       list-style-type: none;
       margin-bottom: 400px;
       padding-inline-start: 0;
   }
-  
+
   #projeto ul li {
       max-width: 250px;
       margin: auto 15px;
       display: inline-block;
   }
-  
+
   #projeto ul li i {
       background-color: white;
       border-radius: 50px;
@@ -170,14 +191,14 @@
       line-height: 100px;
       vertical-align: auto;
   }
-  
+
   #projeto ul li h4 {
       font-weight: bolder;
       font-size: 27px;
       color: #40546D;
       margin-bottom: 50px;
   }
-  
+
   #projeto ul li p {
       color: #40546D;
       font-size: 21px;
@@ -187,7 +208,7 @@
   /*=============================================
   =        Projeto Module - Estilização         =
   =============================================*/
-  
+
   .projeto-module {
       margin-top: -270px !important;
       max-width: 1700px;
@@ -196,15 +217,15 @@
       height: 550px;
       z-index: 99;
   }
-  
+
   .projeto-module .row {
       height: 550px;
       max-width: 1700px;
       margin: auto;
   }
-  
+
   .projeto-module .left-content {
-      background-image: url(../img/Projeto-module/left-content.jpg);
+      background-image: url(../img/projeto-module/left-content.jpg);
       background-position: center;
       background-size: cover;
       filter: grayscale(100%);
@@ -213,7 +234,7 @@
       box-shadow: 3px -15px 30px rgba(0, 0, 0, 0.16);
       padding: calc(3rem + 12vw);
   }
-  
+
   .projeto-module .left-content iframe {
       width: 128%;
       height: 100%;
@@ -221,22 +242,22 @@
       border-top-left-radius: 89px;
       border-bottom-left-radius: 89px;
   }
-  
+
   .projeto-module .right-content {
       background-color: #6220D9;
-      background-image: url(../img/Projeto-module/tentaculo.svg);
+      background-image: url(../img/projeto-module/tentaculo.svg);
       background-size: cover;
       border-top-right-radius: 89px;
       border-bottom-right-radius: 89px;
       box-shadow: 3px -15px 30px rgba(0, 0, 0, 0.16);
   }
-  
+
   .projeto-module .internal-content {
       /* margin: 7rem; */
       /* margin: 18% 10%; */
       margin: 6.5rem 9%;
   }
-  
+
   .projeto-module h3,
   .h3-estilization {
       /* font-size: 4.125rem; */
@@ -244,7 +265,7 @@
       color: white;
       font-weight: bolder;
   }
-  
+
   .projeto-module h4,
   .h4-estilization {
       /* font-size: 3.8125rem; */
@@ -252,7 +273,7 @@
       color: white;
       font-weight: lighter;
   }
-  
+
   .projeto-module span,
   .span-estilization {
       border-left: 3px solid #16D0D3;
@@ -261,7 +282,7 @@
       margin-bottom: 7%;
       border-radius: 2px;
   }
-  
+
   .projeto-module span p,
   .p-estilization {
       text-decoration: none;
@@ -274,25 +295,25 @@
   /*=============================================
   =            Competição - Estilização         =
   =============================================*/
-  
+
   #competicao {
       background-color: #FFFFFF;
       min-height: 100vh;
       padding-top: 8rem;
   }
-  
+
   #competicao .internal-content,
   #competicao img {
       margin: 10% auto;
   }
-  
+
   #competicao h3,
   #competicao h4,
   #competicao span p,
   #competicao .button-estilization {
       color: #3F5770;
   }
-  
+
   #competicao img {
       max-width: 100%;
   }
