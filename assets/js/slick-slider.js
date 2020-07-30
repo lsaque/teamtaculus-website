@@ -6,14 +6,16 @@
       dots: true,
       arrows: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 1,
+      variableWidth: true,
+      focusOnSelect: true,
       responsive: [
         {
           breakpoint: 768,
           settings: {
             centerMode: true,
             centerPadding: '40px',
-            slidesToShow: 3
+            slidesToShow: 1
           }
         },
         {

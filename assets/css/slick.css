@@ -1,9 +1,23 @@
 @charset "UTF-8";
 
-  /* Dotted Control - Slick Slider */
+  /* Dotted Control */
 
   .slick-dots li button:before {
-    font-size: 10px;
+    font-size: 14px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3F5770;
+  }
+
+  .slick-dots li button:hover::before {
+    color: #3F5770;
+    opacity: 0.8;
+  }
+
+  .slick-dots li.slick-active button:before {
+    font-size: 18px;
+    color: #3F5770;
+    opacity: 0.95;
   }
 
   .slick-dots {
@@ -13,4 +27,10 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     bottom: -50px;
+  }
+
+  /* Sliders */
+
+  .slick-slide:not(.slick-active) {
+    filter: grayscale(.95);
   }
