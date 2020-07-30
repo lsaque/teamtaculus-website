@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+  /* Dotted Control - Slick Slider */
+
+  .slick-dots li button:before {
+    font-size: 10px;
+  }
+
+  .slick-dots {
+    text-align: center;
+    width: auto;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: -50px;
+  }
