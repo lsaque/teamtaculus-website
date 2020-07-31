@@ -15,10 +15,12 @@
     #inicio span p {
         font-size: 1.25rem;
     }
-    #projeto h3 {
+    #projeto h3, 
+    .h3-title {
         font-size: 3.375rem;
     }
-    #projeto p {
+    #projeto p, 
+    .p-title {
         font-size: 3.0625rem;
     }
     .projeto-module h3,

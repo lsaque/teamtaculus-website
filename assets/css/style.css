@@ -177,7 +177,7 @@
       padding-bottom: 19.375rem;
   }
 
-  #projeto hr {
+  #projeto hr, .hr-title {
       /* width: 78px; */
       max-width: 3rem;
       height: 4px;
@@ -186,7 +186,7 @@
       border-radius: 26px;
   }
 
-  #projeto h3 {
+  #projeto h3, .h3-title {
       font-weight: bolder;
       /* font-size: 3.375rem; */
       font-size: calc(1.05rem + 2vw);
@@ -196,7 +196,7 @@
       text-align: center;
   }
 
-  #projeto p {
+  #projeto p, .p-title {
       font-weight: normal;
       /* font-size: 3.0625rem; */
       font-size: calc(1rem + 1.7vw);
@@ -342,13 +342,12 @@
 
   #competicao {
       background-color: #FFFFFF;
-      min-height: 100vh;
       padding-top: 8rem;
   }
 
   #competicao .internal-content,
   #competicao img {
-      margin: 10% auto;
+      margin: 0 auto;
   }
 
   #competicao h3,
@@ -385,6 +384,7 @@
     color: #fff;
   }
 
+
   /*=============================================
   =            Equipe - Estilização             =
   =============================================*/
@@ -392,12 +392,31 @@
   #equipe {
     background-color: #ccc;
     padding-bottom: 120px;
+    background-image: url(../img/equipe/tentaculo.svg);
+    background-size: cover;
+    background-position: bottom;
   }
 
-  .slick-carousel.container-fluid {
+  #equipe .container-shape{
+    margin: 0;
+    padding: 0;
+  }
+
+  #equipe .shape{
+    width: 100%;
+    background-clip: content-box;
+    }
+
+  #equipe .internal-content {
+    padding-top: 50px;
+  }
+
+  #equipe .p-title{
+    margin-bottom:  2.5rem;
+  }
+
+  .slick-carousel .container-fluid {
     margin-top: 130px;
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .slick-card-item {
