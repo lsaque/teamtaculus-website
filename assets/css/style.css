@@ -477,9 +477,13 @@
     margin-bottom: 2px;
   }
 
-  .slick-card-social{
+  .slick-card-social {
     display: inline-flex;
     justify-content: center;
+  }
+
+  .slick-card-social a {
+    outline: none;
   }
 
   .slick-card-social img{

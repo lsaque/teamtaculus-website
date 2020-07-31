@@ -9,6 +9,7 @@
       slidesToShow: 1,
       variableWidth: true,
       focusOnSelect: true,
+      initialSlide: 2,
       responsive: [
         {
           breakpoint: 768,
