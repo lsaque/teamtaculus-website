@@ -1,0 +1,15 @@
+<svg id="Componente_25_1" data-name="Componente 25 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55.001" viewBox="0 0 55 55.001">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.119" y1="0.104" x2="1.094" y2="0.885" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#15d2d5"/>
+      <stop offset="1" stop-color="#cb3ec9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.588" y1="1" x2="0.238" y2="0.094" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cb3ec9"/>
+      <stop offset="0.839" stop-color="#17d1d5"/>
+      <stop offset="1" stop-color="#15d2d5"/>
+    </linearGradient>
+  </defs>
+  <path id="Caminho_959" data-name="Caminho 959" d="M929.782,90.6h6.546V74.215H940.9l.487-5.5h-5.056V65.6c0-1.293.26-1.8,1.516-1.8h3.543V58.1h-4.538c-4.87,0-7.067,2.146-7.067,6.256v4.375H926.37v5.556h3.412Z" transform="translate(-906.37 -47.1)" fill="url(#linear-gradient)"/>
+  <path id="Subtração_2" data-name="Subtração 2" d="M27.5,0A27.478,27.478,0,0,0,0,27.5c0,.5.014,1,.04,1.5h1C1.014,28.517,1,28.013,1,27.5A26.5,26.5,0,1,1,27.5,54c-.506,0-1.011-.014-1.5-.041v1c.5.027,1.008.04,1.5.04A27.508,27.508,0,0,0,38.2,2.161,27.328,27.328,0,0,0,27.5,0Z" fill="url(#linear-gradient-2)"/>
+</svg>
