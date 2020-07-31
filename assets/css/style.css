@@ -32,7 +32,6 @@
     height: 5.5rem;
     /* font-size: 1.25rem; */
     font-size: calc(0.9rem + 0.2vw);
-    /* font-size: calc(1.25rem + 0.1vw); */
   }
 
   nav .logo {
@@ -155,7 +154,6 @@
       border-radius: 26px;
       padding: 1.5% 7%;
       text-transform: uppercase;
-      /* Colocar gradient */
       border: 1px solid #16D0D3;
   }
 
@@ -296,8 +294,6 @@
   }
 
   .projeto-module .internal-content {
-      /* margin: 7rem; */
-      /* margin: 18% 10%; */
       margin: 6.5rem 9%;
   }
 
@@ -395,6 +391,8 @@
     background-image: url(../img/equipe/tentaculo.svg);
     background-size: cover;
     background-position: bottom;
+    box-shadow: 0 45px 45px -5px rgba(0, 0, 0, 0.16);
+
   }
 
   #equipe .container-shape{
@@ -498,3 +496,41 @@
     font-size: 14px;
     color: #40546D;
   }
+
+  /*=============================================
+  =              Robô - Estilização             =
+  =============================================*/
+
+  #robo{
+    padding-bottom: 100px;
+  }
+
+  #robo .row {
+    padding-top: 5.625rem;
+  }
+
+  #robo p{
+    color:#3F5770;
+    font-size: calc(1rem + 0.45vw);
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #robo .container-seta{
+    text-align: center;
+  }
+
+  #robo .seta{
+    max-width: 45%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+
+  #robo .esquerda{
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+}
