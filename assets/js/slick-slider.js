@@ -5,7 +5,7 @@
       centerPadding: '60px',
       dots: true,
       arrows: false,
-      infinite: true,
+      infinite: false,
       slidesToShow: 1,
       variableWidth: true,
       focusOnSelect: true,
