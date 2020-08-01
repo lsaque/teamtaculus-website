@@ -519,11 +519,6 @@ nav ul .nav-item .botao-nav {
 =              Robô - Estilização             =
 =============================================*/
 
-#robo{
-  /* padding-bottom: 100px; */
-  /* background-color: aquamarine; */
-}
-
 #robo .row {
   padding-top: 5.625rem;
   padding-bottom: 150px;
@@ -558,10 +553,6 @@ nav ul .nav-item .botao-nav {
 #robo .robo-galeria{
   text-align: center;
   justify-content: center;
-}
-
-#robo .robo-galeria img{
-  max-width: 80%;
 }
 
 /*=============================================
@@ -714,14 +705,56 @@ nav ul .nav-item .botao-nav {
 =============================================*/
 
 #ingressos{
-  height: 1000px;
-  background-color: white;
+  height: auto;
+  background-image: url(../img/ingressos/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #15D2D5;
 }
 
 #ingressos .container-shape{
   padding: 0;
 }
 
-#ingressos .container-fluid img{
+#ingressos .container-fluid .shape{
   width: 100%;
+}
+
+#ingressos .row{
+  padding-top: 4.75rem;
+  padding-bottom: 5rem;
+}
+
+#ingressos .h3-estilization,
+#ingressos .h4-estilization
+{
+  text-transform: uppercase;
+  font-size: calc(2.5rem + 2.6vw);
+}
+
+#ingressos p{
+  color: #DEDEDE;
+  font-size: 20px;
+  max-width: 63%;
+  padding-bottom: 1rem;
+}
+
+#ingressos button{
+  text-transform: uppercase;
+  width: 170px;
+  height: 43px;
+  border-radius: 80px;
+  border: none;
+  color: white;
+}
+
+#ingressos .left-button{
+  background-image: linear-gradient(104deg, rgba(203,62,201,1) 0%, rgba(0,0,164,1) 100%);
+}
+
+#ingressos .right-button{
+  background-image: linear-gradient(rgb(7, 7, 77), rgb(7, 7, 77)), linear-gradient(45deg, rgb(19, 1, 175) 0%, rgb(126, 34, 200) 100%);
+  border: double 1px transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
