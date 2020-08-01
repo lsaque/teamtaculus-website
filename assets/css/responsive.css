@@ -41,6 +41,10 @@
     #competicao {
         padding-top: 6.5rem;
     }
+
+    #contato .h5-estilization{
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width:1600px) {}
@@ -79,6 +83,62 @@
         padding-top: 13rem;
         margin: 0 3%;
     }
+
+    #galeria .img-sup-esq{
+        border-top-left-radius: 80px;
+        border-top-right-radius: 80px;
+    }
+    
+    #galeria .img-inf-esq{
+        border-bottom-left-radius: 0;
+    }
+
+    #galeria .img-sup-dir{
+        border-top-right-radius: 0;
+    }
+
+    #galeria .img-inf-dir{
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+    }
+
+    #galeria .item-sup-dir{
+        height: 50%;
+    }
+
+    #galeria .item-sup-esq{
+        height: 50%;
+    }
+
+    #contato .row{
+        padding-top:470px;
+      }
+
+    #contato .contato-detalhe{
+        padding-bottom: 2rem;
+    }
+
+    #contato .pt-4{
+        padding-top: 0 !important;
+    }
+
+    #contato .h4-estilization{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    #contato .h5-estilization{
+        text-align: center;
+    }
+    
+    #contato .p-estilization{
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 1.8rem;
+        word-wrap: break-word;
+    }
+    
 }
 
 @media screen and (max-width: 600px) {}
