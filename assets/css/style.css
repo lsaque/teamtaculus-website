@@ -1,4 +1,6 @@
-/* TeamTaculus - Robocup */
+/*=============================================
+=           TeamTaculus - Robocup             =
+=============================================*/
 
 @charset "UTF-8";
 
@@ -668,10 +670,15 @@ nav ul .nav-item .botao-nav {
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
   border: none;
+  padding: 0px 27px;
 }
 
 #contato input {
   height: 2.9rem;
+}
+
+#contato textarea {
+  padding-top: 13px !important;
 }
 
 #contato input::placeholder,
@@ -679,11 +686,16 @@ nav ul .nav-item .botao-nav {
   color: #C8C8C8;
   font-size: 15px;
   font-weight: bolder;
-  padding-left: 15px;
 }
 
-#contato textarea::placeholder {
-  padding-top: 7px;
+#contato input:focus,
+#contato textarea:focus {
+  padding-left: 27px;
+  outline: none;
+}
+
+#contato textarea:focus {
+  padding-top: 13px;
 }
 
 #contato .contato-btn {
@@ -790,6 +802,7 @@ nav ul .nav-item .botao-nav {
 
 #patrocinadores img {
   max-width: 50%;
+  width: 120px;
   filter: grayscale(100%);
 }
 
@@ -797,6 +810,131 @@ nav ul .nav-item .botao-nav {
 =           Rodapé - Estilização              =
 =============================================*/
 
-#rodape {
-  height: 1000px;
+footer {
+  height: auto;
+  margin: auto;
+}
+
+footer .container .row {
+  padding-bottom: 5rem;
+}
+
+footer .footer-title {
+  font-size: 1rem;
+  color: #4B4B4B;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+}
+
+footer .footer-title span {
+  font-family: 'Poppins';
+  font-weight: lighter;
+}
+
+footer .footer-title strong {
+  font-weight: bold;
+}
+
+footer .footer-content {
+  color: #969696;
+  font-size: 1rem;
+  max-width: 77%;
+  list-style-type: none;
+}
+
+footer h3 {
+  font-size: calc(1rem + 1vw) !important;
+  font-weight: bold !important;
+  color: #212529 !important;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer li a:link,
+footer li a:visited {
+  color: #969696;
+}
+
+footer .novidades {
+  background: rgb(251, 251, 251);
+  background: linear-gradient(104deg, rgba(251, 251, 251, 1) 0%, rgba(184, 181, 182, 1) 100%);
+  border: none;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  height: 3.3rem;
+}
+
+footer .novidades input {
+  border: none;
+  background-color: transparent;
+  color: #212121;
+  font-weight: normal;
+  line-height: 3.3rem;
+  padding-left: 35px;
+  max-width: 65%;
+}
+
+footer .novidades input:focus {
+  outline: none;
+  padding-left: 35px;
+}
+
+footer .novidades button {
+  background: rgb(195, 0, 251);
+  background: linear-gradient(90deg, rgba(195, 0, 251, 1) 0%, rgba(7, 7, 76, 1) 100%);
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  color: white;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  height: 73%;
+  width: 30%;
+  font-size: 16px;
+}
+
+footer .novidades button:focus {
+  outline: none;
+}
+
+footer .container-fluid {
+  background-color: black;
+}
+
+footer .container-fluid .row {
+  max-width: 1500px;
+  margin: auto;
+  line-height: 5rem;
+}
+
+footer .container-fluid span {
+  font-family: 'Poppins';
+  font-weight: normal;
+  color: #808080;
+  font-size: 12px;
+}
+
+footer .container-fluid span a:link,
+footer .container-fluid span a:visited {
+  color: #808080;
+}
+
+footer .left-content,
+.right-content {
+  padding: 0;
+}
+
+footer .left-content {
+  text-align: left;
+}
+
+footer .right-content {
+  text-align: right;
 }

@@ -82,6 +82,10 @@
   #ingressos .h4-estilization {
     font-size: 5.25rem;
   }
+
+  footer h3 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width:1600px) {}
@@ -181,6 +185,19 @@
   #patrocinadores .container-fluid {
     max-width: 95%;
   }
+
+  footer {
+    padding-top: 130px;
+  }
+
+  footer .left-content {
+    text-align: center;
+  }
+
+
+  footer .right-content {
+    text-align: center !important;
+  }
 }
 
 @media screen and (max-width: 600px) {}
@@ -188,6 +205,22 @@
 @media screen and (max-width: 575px) {
   #projeto {
     max-height: 165rem;
+  }
+
+  footer .footer-title,
+  footer .footer-content {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  footer .footer-title{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+  }
+
+  footer h3{
+    padding-bottom: 1rem;
   }
 }
 
