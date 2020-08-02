@@ -84,7 +84,7 @@
   }
 
   footer h3 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 }
 
@@ -214,12 +214,12 @@
     margin: auto;
   }
 
-  footer .footer-title{
+  footer .footer-title {
     padding-bottom: 1rem;
     padding-top: 2rem;
   }
 
-  footer h3{
+  footer h3 {
     padding-bottom: 1rem;
   }
 }

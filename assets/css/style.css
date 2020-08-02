@@ -846,6 +846,7 @@ footer h3 {
   font-size: calc(1rem + 1vw) !important;
   font-weight: bold !important;
   color: #212529 !important;
+  max-width: 100% !important;
 }
 
 footer ul {
