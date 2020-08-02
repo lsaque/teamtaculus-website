@@ -1,6 +1,7 @@
 /* TeamTaculus - Robocup */
 
 @charset "UTF-8";
+
 body {
   max-width: 100vw;
   margin: auto;
@@ -9,10 +10,6 @@ body {
 
 .container {
   max-width: 93.75rem;
-}
-
-footer {
-  text-align: center;
 }
 
 /*=============================================
@@ -160,7 +157,7 @@ nav ul .nav-item .botao-nav {
 }
 
 #inicio img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /*=============================================
@@ -178,7 +175,8 @@ nav ul .nav-item .botao-nav {
   padding-bottom: 19.375rem;
 }
 
-#projeto hr, .hr-title {
+#projeto hr,
+.hr-title {
   /* width: 78px; */
   max-width: 3rem;
   height: 4px;
@@ -187,7 +185,8 @@ nav ul .nav-item .botao-nav {
   border-radius: 26px;
 }
 
-#projeto h3, .h3-title {
+#projeto h3,
+.h3-title {
   font-weight: bolder;
   /* font-size: 3.375rem; */
   font-size: calc(1.05rem + 2vw);
@@ -197,7 +196,8 @@ nav ul .nav-item .botao-nav {
   text-align: center;
 }
 
-#projeto p, .p-title {
+#projeto p,
+.p-title {
   font-weight: normal;
   /* font-size: 3.0625rem; */
   font-size: calc(1rem + 1.7vw);
@@ -397,22 +397,22 @@ nav ul .nav-item .botao-nav {
 
 }
 
-#equipe .container-shape{
+#equipe .container-shape {
   margin: 0;
   padding: 0;
 }
 
-#equipe .shape{
+#equipe .shape {
   width: 100%;
   background-clip: content-box;
-  }
+}
 
 #equipe .internal-content {
   padding-top: 50px;
 }
 
-#equipe .p-title{
-  margin-bottom:  2.5rem;
+#equipe .p-title {
+  margin-bottom: 2.5rem;
 }
 
 .slick-carousel .container-fluid {
@@ -452,9 +452,9 @@ nav ul .nav-item .botao-nav {
 }
 
 .slick-card-image img {
-  -webkit-box-shadow: 0px 20px 45px -15px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 20px 45px -15px rgba(0,0,0,0.5);
-  box-shadow: 0px 20px 45px -15px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 20px 45px -15px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 20px 45px -15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 20px 45px -15px rgba(0, 0, 0, 0.5);
 }
 
 .slick-card-image {
@@ -490,7 +490,7 @@ nav ul .nav-item .botao-nav {
   outline: none;
 }
 
-.slick-card-social img{
+.slick-card-social img {
   width: 35px;
   margin: 0 7px;
 }
@@ -524,33 +524,33 @@ nav ul .nav-item .botao-nav {
   padding-bottom: 150px;
 }
 
-#robo p{
-  color:#3F5770;
+#robo p {
+  color: #3F5770;
   font-size: calc(1rem + 0.45vw);
   text-align: center;
   padding-bottom: 30px;
 }
 
-#robo .container-seta{
+#robo .container-seta {
   text-align: center;
 }
 
-#robo .seta{
+#robo .seta {
   max-width: 45%;
   height: 100%;
   position: relative;
   cursor: pointer;
 }
 
-#robo .esquerda{
-  transform:rotate(180deg);
-  -webkit-transform:rotate(180deg);
-  -moz-transform:rotate(180deg);
-  -ms-transform:rotate(180deg);
-  -o-transform:rotate(180deg);
+#robo .esquerda {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 
-#robo .robo-galeria{
+#robo .robo-galeria {
   text-align: center;
   justify-content: center;
 }
@@ -583,7 +583,7 @@ nav ul .nav-item .botao-nav {
   -o-border-radius: 80px;
 }
 
-#galeria .galeria-item{
+#galeria .galeria-item {
   overflow: hidden;
   padding: 13px 8px;
 }
@@ -593,35 +593,35 @@ nav ul .nav-item .botao-nav {
   overflow: hidden;
 }
 
-#galeria img{
+#galeria img {
   height: 100%;
   width: auto;
   object-fit: cover;
 }
 
-#galeria .img-sup-esq{
+#galeria .img-sup-esq {
   border-top-left-radius: 80px;
 }
 
-#galeria .img-inf-esq{
+#galeria .img-inf-esq {
   border-bottom-left-radius: 80px;
 }
 
-#galeria .img-sup-dir{
+#galeria .img-sup-dir {
   border-top-right-radius: 80px;
   /* height: 50%; */
 }
 
-#galeria .img-inf-dir{
+#galeria .img-inf-dir {
   border-bottom-right-radius: 80px;
   /* height: 75%; */
 }
 
-#galeria .item-sup-dir{
+#galeria .item-sup-dir {
   height: 25%;
 }
 
-#galeria .item-sup-esq{
+#galeria .item-sup-esq {
   height: 75%;
 }
 
@@ -635,23 +635,23 @@ nav ul .nav-item .botao-nav {
   height: auto;
 }
 
-#contato .row{
-  padding-top:529px;
+#contato .row {
+  padding-top: 529px;
 }
 
-#contato .h4-estilization{
+#contato .h4-estilization {
   font-weight: bolder;
   padding-bottom: 6.25rem;
 }
 
-#contato .h5-estilization{
-  color:white;
+#contato .h5-estilization {
+  color: white;
   /* font-size: calc(1.1rem + 2.3vw); */
   font-size: calc(1rem + 1.3vw);
   font-weight: bolder;
 }
 
-#contato .p-estilization{
+#contato .p-estilization {
   font-size: 20px;
   font-weight: lighter;
   color: #C5BEBE;
@@ -659,8 +659,8 @@ nav ul .nav-item .botao-nav {
   max-width: 60%;
 }
 
-#contato input, 
-#contato textarea{
+#contato input,
+#contato textarea {
   background-color: white;
   border-radius: 25px;
   -webkit-border-radius: 25px;
@@ -670,23 +670,23 @@ nav ul .nav-item .botao-nav {
   border: none;
 }
 
-#contato input{
+#contato input {
   height: 2.9rem;
 }
 
-#contato input::placeholder, 
-#contato textarea::placeholder{
+#contato input::placeholder,
+#contato textarea::placeholder {
   color: #C8C8C8;
   font-size: 15px;
   font-weight: bolder;
   padding-left: 15px;
 }
 
-#contato textarea::placeholder{
+#contato textarea::placeholder {
   padding-top: 7px;
 }
 
-#contato .contato-btn{
+#contato .contato-btn {
   text-transform: uppercase;
   border-radius: 80px;
   -webkit-border-radius: 80px;
@@ -698,48 +698,47 @@ nav ul .nav-item .botao-nav {
   color: white;
   border: 1px solid white;
   background-color: transparent;
-} 
+}
 
 /*=============================================
 =            Ingressos - Estilização          =
 =============================================*/
 
-#ingressos{
+#ingressos {
   height: auto;
-  background-image: url(../img/ingressos/background.png);
+  background-image: url(../img/ingressos/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #15D2D5;
 }
 
-#ingressos .container-shape{
+#ingressos .container-shape {
   padding: 0;
 }
 
-#ingressos .container-fluid .shape{
+#ingressos .container-fluid .shape {
   width: 100%;
 }
 
-#ingressos .row{
+#ingressos .row {
   padding-top: 4.75rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 
 #ingressos .h3-estilization,
-#ingressos .h4-estilization
-{
+#ingressos .h4-estilization {
   text-transform: uppercase;
   font-size: calc(2.5rem + 2.6vw);
 }
 
-#ingressos p{
+#ingressos p {
   color: #DEDEDE;
   font-size: 20px;
   max-width: 63%;
   padding-bottom: 1rem;
 }
 
-#ingressos button{
+#ingressos button {
   text-transform: uppercase;
   width: 170px;
   height: 43px;
@@ -748,13 +747,56 @@ nav ul .nav-item .botao-nav {
   color: white;
 }
 
-#ingressos .left-button{
-  background-image: linear-gradient(104deg, rgba(203,62,201,1) 0%, rgba(0,0,164,1) 100%);
+#ingressos .left-button {
+  background-image: linear-gradient(104deg, rgba(203, 62, 201, 1) 0%, rgba(0, 0, 164, 1) 100%);
 }
 
-#ingressos .right-button{
-  background-image: linear-gradient(rgb(7, 7, 77), rgb(7, 7, 77)), linear-gradient(45deg, rgb(19, 1, 175) 0%, rgb(126, 34, 200) 100%);
-  border: double 1px transparent;
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+#ingressos .right-button {
+  border: 2px solid #CB3EC9;
+  background-color: transparent;
+}
+
+#ingressos .ingresso-img {
+  max-height: 85%;
+}
+
+/*=============================================
+=       Patrocinadores - Estilização          =
+=============================================*/
+
+#patrocinadores {
+  height: 300px;
+}
+
+#patrocinadores .container-fluid {
+  max-width: 1650px;
+  width: 95%;
+  border-radius: 60px;
+  margin: 0 auto;
+  box-shadow: 15px 30px 99px rgba(0, 0, 0, 0.16);
+  margin-top: -90px;
+  background-color: white;
+}
+
+#patrocinadores .row {
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+#patrocinadores .patrocinadores-align {
+  line-height: 180px;
+}
+
+#patrocinadores img {
+  max-width: 50%;
+  filter: grayscale(100%);
+}
+
+/*=============================================
+=           Rodapé - Estilização              =
+=============================================*/
+
+#rodape {
+  height: 1000px;
 }
