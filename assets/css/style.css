@@ -707,9 +707,11 @@ nav ul .nav-item .botao-nav {
   -o-border-radius: 80px;
   width: 170px;
   height: 43px;
-  color: white;
-  border: 1px solid white;
+  color: #fff;
+  border: 2px solid #fff;
   background-color: transparent;
+  transition: 0.8s;
+  outline: none;
 }
 
 /*=============================================
