@@ -43,6 +43,13 @@
 
 .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] {}
 
+/* Padding */
+
+.slick-slider {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /* Responsividade */
 
 @media screen and (min-width: 1600px) {
