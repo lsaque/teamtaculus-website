@@ -104,12 +104,14 @@
 
 @media screen and (max-width:991px) {
   .projeto-module .left-content {
-    border-top-right-radius: 89px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
     border-bottom-left-radius: 0;
   }
 
   .projeto-module .right-content {
-    border-bottom-left-radius: 89px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
     border-top-right-radius: 0;
   }
 

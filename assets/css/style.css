@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-  max-width: 93.75rem;
+  max-width: 85rem;
+  /* max-width: 93.75rem; */
 }
 
 /*=============================================
@@ -29,9 +30,12 @@ body {
 }
 
 nav {
-  height: 5.5rem;
-  /* font-size: 1.25rem; */
-  font-size: calc(0.9rem + 0.2vw);
+  min-height: 71px;
+  height: auto;
+  /* height: 5.5rem; */
+  font-size: 14px;
+  font-weight: 600;
+  /* font-size: calc(0.9rem + 0.2vw); */
 }
 
 nav .logo {
@@ -65,7 +69,8 @@ nav ul .nav-item a.nav-effect::after {
 }
 
 nav ul .nav-item a.nav-effect:hover::after {
-  background-color: #16D0D3;
+  /* background-color: #16D0D3; */
+  background: linear-gradient(104deg, rgba(203, 62, 201, 1) 0%, rgb(22, 208, 211) 100%);
   width: 100%;
   transition: 0.5s;
 }
@@ -73,10 +78,16 @@ nav ul .nav-item a.nav-effect:hover::after {
 nav ul .nav-item .botao-nav {
   color: #1F143F;
   background-color: white;
-  width: 11.875rem;
+  width: 8rem;
   margin: auto;
   margin-top: 5px;
   border-radius: 26px;
+
+  transition: opacity 0.5s;
+}
+
+nav ul .nav-item .botao-nav:hover {
+  opacity: 0.9;
 }
 
 /*=============================================
@@ -125,37 +136,25 @@ nav ul .nav-item .botao-nav {
   font-size: calc(1rem + 0.2vw);
 }
 
-#inicio button {
-  background: url('../img/inicio/bg-button.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  font-size: 1.25rem;
-  padding: 15px 75px;
-  border: 1px solid transparent;
-  display: inline-block;
-  color: rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
-  outline: none;
-  transition: color 0.3s;
-}
-
-#inicio .btn-gradient:hover {
-  background: url('../img/inicio/bg-button-hover.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: rgba(255, 255, 255, 1);
-}
-
-.button-estilization {
+#inicio .button-estilization,
+#competicao .button-estilization {
+  background-color: transparent;
   text-decoration: none;
   color: white;
   font-size: 1.25rem;
   border-radius: 26px;
-  padding: 1.5% 7%;
-  text-transform: uppercase;
+  padding: 1.2% 10%;
   border: 1px solid #16D0D3;
+
+  background: linear-gradient(to right, #16D0D3, #16D0D3);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.4s 0s;
+}
+
+#inicio .button-estilization:hover {
+  /* background-color: #16D0D3; */
+  background-size: 100% 100%;
 }
 
 #inicio img {
@@ -169,21 +168,23 @@ nav ul .nav-item .botao-nav {
 #projeto {
   background-color: #F1F1F1;
   max-height: 120rem;
+  display: flex;
 }
 
 #projeto .row {
-  padding-top: 5.625rem;
-  text-align: center;
-  padding-bottom: 19.375rem;
+  padding-top: 5rem;
+  padding-bottom: 25rem;
+  display: flex;
+  justify-content: center;
 }
 
 #projeto hr,
 .hr-title {
   /* width: 78px; */
-  max-width: 3rem;
+  max-width: 4.2rem;
   height: 4px;
   background-color: #15D2D5;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-radius: 26px;
 }
 
@@ -191,64 +192,85 @@ nav ul .nav-item .botao-nav {
 .h3-title {
   font-weight: bolder;
   /* font-size: 3.375rem; */
-  font-size: calc(1.05rem + 2vw);
+  /* font-size: calc(1.05rem + 2vw); */
+  font-size: 38px;
   margin-bottom: 0;
   color: #41516A;
   text-transform: uppercase;
   text-align: center;
 }
 
-#projeto p,
+#projeto .title-text p,
 .p-title {
   font-weight: normal;
   /* font-size: 3.0625rem; */
-  font-size: calc(1rem + 1.7vw);
+  /* font-size: calc(1rem + 1.7vw); */
+  font-size: 24px;
   margin-bottom: 2.5rem;
   color: #41516A;
   text-align: center;
 }
 
 #projeto .projeto-item {
-  height: 430px;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0px 3px 99px rgba(0, 0, 0, 0.1);
+  height: 190px;
+  margin: 15px;
+  padding-top: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: border-bottom 0.1s;
+}
+
+#projeto .projeto-item:hover {
+  border-bottom: 2px solid #6220D9;
 }
 
 #projeto ul {
-  margin-top: 10%;
   list-style-type: none;
-  margin-bottom: 400px;
   padding-inline-start: 0;
 }
 
 #projeto ul li {
-  max-width: 250px;
-  margin: auto 15px;
-  display: inline-block;
+  display: flex;
+}
+
+#projeto ul li .icon-box {
+  width: 145px;
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+  /* border: 1px solid red; */
 }
 
 #projeto ul li i {
   background-color: white;
-  border-radius: 50px;
-  height: 100px;
-  width: 100px;
-  margin-bottom: 30px;
-  box-shadow: 3.5px 3.5px 15px 0px rgba(25, 28, 3, 0.25);
+  border-radius: 100%;
+  height: 105px;
+  width: 105px;
+  border: 2px solid #7c53c7;
+  box-shadow: 0px 4px 5px rgba(25, 28, 3, 0.25);
   font-size: 30px;
   line-height: 100px;
   vertical-align: auto;
+  text-align: center;
 }
 
 #projeto ul li h4 {
   font-weight: bolder;
-  font-size: 27px;
+  font-size: 24px;
   color: #40546D;
-  margin-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 #projeto ul li p {
   color: #40546D;
-  font-size: 21px;
+  font-size: 16px;
   font-weight: lighter;
   margin: auto;
+  max-width: 228px;
 }
 
 /*=============================================
@@ -257,7 +279,7 @@ nav ul .nav-item .botao-nav {
 
 .projeto-module {
   margin-top: -270px !important;
-  max-width: 1700px;
+  max-width: 1400px;
   margin: auto;
   border-radius: 89px;
   height: 550px;
@@ -265,7 +287,6 @@ nav ul .nav-item .botao-nav {
 }
 
 .projeto-module .row {
-  height: 550px;
   max-width: 1700px;
   margin: auto;
 }
@@ -305,7 +326,8 @@ nav ul .nav-item .botao-nav {
 .projeto-module h3,
 .h3-estilization {
   /* font-size: 4.125rem; */
-  font-size: calc(1.1rem + 2.6vw);
+  /* font-size: calc(1.1rem + 2.6vw); */
+  font-size: 54px;
   color: white;
   font-weight: bolder;
 }
@@ -313,7 +335,8 @@ nav ul .nav-item .botao-nav {
 .projeto-module h4,
 .h4-estilization {
   /* font-size: 3.8125rem; */
-  font-size: calc(1.1rem + 2.3vw);
+  /* font-size: calc(1.1rem + 2.3vw); */
+  font-size: 52px;
   color: white;
   font-weight: lighter;
 }
@@ -331,7 +354,8 @@ nav ul .nav-item .botao-nav {
 .p-estilization {
   text-decoration: none;
   /* font-size: 1.25rem; */
-  font-size: calc(1rem + 0.2vw);
+  /* font-size: calc(1rem + 0.2vw); */
+  font-size: 16px;
   margin-left: 30px;
   color: white;
   font-weight: normal;
@@ -354,7 +378,7 @@ nav ul .nav-item .botao-nav {
 #competicao h3,
 #competicao h4,
 #competicao span p,
-#competicao .btn-gradient {
+#competicao .button-estilization {
   color: #3F5770;
 }
 
@@ -362,7 +386,14 @@ nav ul .nav-item .botao-nav {
   max-width: 100%;
 }
 
-#competicao button {
+#competicao .button-estilization:hover {
+  /* background-color: #16D0D3; */
+  background-size: 100% 100%;
+  color: white;
+}
+
+
+/* #competicao button {
   background: url('../img/inicio/bg-button.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -383,7 +414,7 @@ nav ul .nav-item .botao-nav {
   background-position: center;
   background-size: cover;
   color: #fff;
-}
+} */
 
 /*=============================================
 =            Equipe - Estilização             =
@@ -473,12 +504,12 @@ nav ul .nav-item .botao-nav {
 
 .slick-card-title h3 {
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 24px;
   color: #40546D;
 }
 
 .slick-card-title p {
-  font-size: 24px;
+  font-size: 16px;
   color: #40546D;
   margin-bottom: 2px;
 }
@@ -528,7 +559,8 @@ nav ul .nav-item .botao-nav {
 
 #robo p {
   color: #3F5770;
-  font-size: calc(1rem + 0.45vw);
+  /* font-size: calc(1rem + 0.45vw); */
+  font-size: 20px;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -570,7 +602,7 @@ nav ul .nav-item .botao-nav {
 
 #galeria .row {
   height: auto;
-  max-width: 93rem;
+  max-width: 85rem;
   margin: auto;
 }
 
@@ -587,11 +619,12 @@ nav ul .nav-item .botao-nav {
 
 #galeria .galeria-item {
   overflow: hidden;
+  height: auto;
   padding: 13px 8px;
 }
 
 #galeria .box {
-  height: 100%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -611,21 +644,12 @@ nav ul .nav-item .botao-nav {
 
 #galeria .img-sup-dir {
   border-top-right-radius: 80px;
-  /* height: 50%; */
 }
 
 #galeria .img-inf-dir {
   border-bottom-right-radius: 80px;
-  /* height: 75%; */
 }
 
-#galeria .item-sup-dir {
-  height: 25%;
-}
-
-#galeria .item-sup-esq {
-  height: 75%;
-}
 
 /*=============================================
 =              Contato - Estilização          =
@@ -656,7 +680,7 @@ nav ul .nav-item .botao-nav {
 #contato .p-estilization {
   font-size: 20px;
   font-weight: lighter;
-  color: #C5BEBE;
+  color: white;
   margin-left: 0;
   max-width: 60%;
 }
