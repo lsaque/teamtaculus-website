@@ -33,7 +33,7 @@
   <!-- Início: Cabeçalho -->
   <header>
     <!-- Menu -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="menu">
+    <nav class="navbar navbar-expand-xl fixed-top" id="menu">
       <div class="container">
 
         <!-- Logo do Site -->
@@ -51,7 +51,7 @@
 
         <!-- Itens do Menu -->
         <div class="collapse navbar-collapse" id="nav-menu">
-          <ul class="navbar-nav navbar-light ml-auto text-center">
+          <ul class="navbar-nav navbar-light mx-auto text-center">
 
             <!-- Item 01: Início -->
             <li class="nav-item">
@@ -82,10 +82,19 @@
             <li class="nav-item">
               <a href="" class="nav-link nav-effect"> Contato </a>
             </li>
+          </ul>
+
+          <ul class="navbar-nav text-center">
 
             <!-- Item 07: Ingressos -->
             <li class="nav-item">
-              <a href="" class="nav-link botao-nav"> Ingressos </a>
+              <a href="" class="nav-link botao-nav ingressos"> Ingressos </a>
+            </li>
+
+            <!-- Item 08: Investidores -->
+            <li class="nav-item mx-auto">
+              <a href="" class="nav-link botao-nav invest" data-toggle="modal" data-target=".bd-example-modal-lg">
+                Investidor </a>
             </li>
 
           </ul>
@@ -98,6 +107,19 @@
   </header>
   <!-- Fim: Cabeçalho -->
 
+  <!-- Modal: Investidores -->
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+
+      <div class="modal-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quaerat voluptates vel quidem placeat earum
+        ipsa expedita provident?
+      </div>
+    </div>
+  </div>
+  <!-- Fim Modal: Investidores -->
+
   <!-- Navegação: Início -->
   <section id="inicio">
     <div class="container">
@@ -106,7 +128,7 @@
       <div class="row">
 
         <!-- nome x -->
-        <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="col-sm-12 col-md-6 col-lg-6">
           <h1 class=""> TUDO NOSSO </h1>
           <h2 class=""> E NADA DELES </h2>
           <span>
@@ -118,7 +140,7 @@
         <!-- Fim: nome x -->
 
         <!-- nome y -->
-        <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="col-sm-12 col-md-6 col-lg-6">
           <img class="img-fluid" src="./assets/img/Inicio/Robot.svg" alt="Imagem do Robô">
         </div>
         <!-- Fim: nome y -->
@@ -213,15 +235,14 @@
   </section>
   <!-- Fim Navegação: Projeto -->
 
-
   <div class="projeto-module">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6 left-content">
-          <!-- <iframe src="https://player.vimeo.com/video/42683846?color=6220D9" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
-          <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
+      <div class="row justify-content-center">
+        <div class="col-11 col-sm-10 col-md-11 col-lg-6 left-content">
+          <a href="#" class="round-button" data-toggle="modal" data-target="#videoModal"
+            data-theVideo="https://youtu.be/6LNvmspMVyI"><i class="fa fa-play fa-2x"></i></a>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 right-content">
+        <div class="col-11 col-sm-10 col-md-11 col-lg-6 right-content">
           <div class="internal-content">
             <h3> TUDO NOSSO </h3>
             <h4> E NADA DELES </h4>
@@ -236,6 +257,23 @@
     </div>
   </div>
 
+  <!-- Modal: Video | Projeto-module -->
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/6LNvmspMVyI" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim Modal: Video | Projeto-module -->
+
   <!-- Navegação: Competição -->
   <section id="competicao">
     <div class="container">
@@ -246,8 +284,8 @@
         <!-- nome x -->
         <div class="col-sm-12 col-md-5 col-lg-6">
           <div class="internal-content">
-            <h3 class="h3-estilization"> TUDO NOSSO </h3>
-            <h4 class="h4-estilization"> E NADA DELES </h4>
+            <h3 class="h3-estilization"> A COMPETIÇÃO </h3>
+            <h4 class="h4-estilization"> E TUDO SOBRE </h4>
             <span class="span-estilization">
               <p class="p-estilization">Lorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh
                 euismod Lorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh euismod
@@ -264,8 +302,8 @@
         <!-- Fim: nome x -->
 
         <!-- nome y -->
-        <div class="col-sm-12 col-md-7 col-lg-6">
-          <img src="./assets/img/competicao/image.svg" alt="Imagem da competição">
+        <div class="col-sm-12 col-md-7 col-lg-6 text-center">
+          <img class="img-fluid" src="./assets/img/competicao/image.svg" alt="Imagem da competição">
         </div>
         <!-- Fim: nome y -->
 
@@ -308,23 +346,17 @@
     <div class="container">
 
       <!-- nome elemento pai -->
-      <div class="row">
+      <div class="row justify-content-center">
         <!-- Título - Robô -->
         <div class="col-sm-12 col-md-12 col-lg-12 internal-content">
           <hr class="hr-title">
           <h3 class="h3-title"> Robo </h3>
-          <p class="p-title">Conheça melhor.</p>
+          <p class="p-title">Conheça melhor</p>
         </div>
         <!-- Fim: Título - Robô -->
 
-        <!-- Seta da Esquerda -->
-        <div class="col-2 col-sm-2 col-md-2 col-lg-1 container-seta">
-          <img src="./assets/img/robo/seta.svg" alt="Seta pra esquerda" class="seta esquerda img-fluid">
-        </div>
-        <!-- Fim: Seta da Esquerda -->
-
         <!-- Texto - Robô -->
-        <div class="col-8 col-sm-8 col-md-8 col-lg-10 robo-text">
+        <div class="col-11 robo-text">
           <p>Lorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh euismod nonummy nibh euismod
             LoremLorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh euismod nonummy nibh
             euismod Lorem</p>
@@ -335,11 +367,6 @@
         </div>
         <!-- Fim: Texto - Robô -->
 
-        <!-- Seta da Direita -->
-        <div class="col-2 col-sm-2 col-md-2 col-lg-1 container-seta">
-          <img src="./assets/img/robo/seta.svg" alt="Seta pra direita" class="seta img-fluid">
-        </div>
-        <!-- Fim: Seta da Direita -->
       </div>
       <!-- Fim: nome elemento pai -->
 
@@ -364,33 +391,29 @@
               <div class="row">
                 <div class="col-md-3 col-sm-12 co-xs-12 galeria-item galeria-esquerda">
                   <div class="box">
-                    <a href="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg">
-                      <img src="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg"
-                        class="img-fluid img-sup-esq">
+                    <a href="./assets/img/galeria/1.png">
+                      <img src="./assets/img/galeria/1.png" class="img-fluid img-sup-esq">
                     </a>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-12 co-xs-12 galeria-item galeria-esquerda">
                   <div class="box">
-                    <a href="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg">
-                      <img src="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg"
-                        class="img-fluid">
+                    <a href="./assets/img/galeria/2.png">
+                      <img src="./assets/img/galeria/2.png" class="img-fluid">
                     </a>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-12 co-xs-12 galeria-item galeria-esquerda">
                   <div class="box">
-                    <a href="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg">
-                      <img src="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg"
-                        class="img-fluid">
+                    <a href="./assets/img/galeria/3.png">
+                      <img src="./assets/img/galeria/3.png" class="img-fluid">
                     </a>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-12 co-xs-12 galeria-item galeria-esquerda">
                   <div class="box">
-                    <a href="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg">
-                      <img src="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg"
-                        class="img-fluid img-sup-dir">
+                    <a href="./assets/img/galeria/4.png">
+                      <img src="./assets/img/galeria/4.png" class="img-fluid img-sup-dir">
                     </a>
                   </div>
                 </div>
@@ -398,33 +421,29 @@
               <div class="row galeria-inferior">
                 <div class="col-md-3 col-sm-12 co-xs-12 galeria-item">
                   <div class="box">
-                    <a href="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg">
-                      <img src="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg"
-                        class="img-fluid img-inf-esq">
+                    <a href="./assets/img/galeria/5.png">
+                      <img src="./assets/img/galeria/5.png" class="img-fluid img-inf-esq">
                     </a>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-12 co-xs-12 galeria-item">
                   <div class="box">
-                    <a href="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg">
-                      <img src="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg"
-                        class="img-fluid">
+                    <a href="./assets/img/galeria/6.png">
+                      <img src="./assets/img/galeria/6.png" class="img-fluid">
                     </a>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-12 co-xs-12 galeria-item">
                   <div class="box">
-                    <a href="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg">
-                      <img src="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg"
-                        class="img-fluid">
+                    <a href="./assets/img/galeria/7.png">
+                      <img src="./assets/img/galeria/7.png" class="img-fluid">
                     </a>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-12 co-xs-12 galeria-item">
                   <div class="box">
-                    <a href="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg">
-                      <img src="https://fair-travel.se/wp-content/uploads/2012/05/Cotopaxi-2-1000x400.jpg"
-                        class="img-fluid img-inf-dir">
+                    <a href="./assets/img/galeria/8.png">
+                      <img src="./assets/img/galeria/8.png" class="img-fluid img-inf-dir">
                     </a>
                   </div>
                 </div>
@@ -523,14 +542,16 @@
             laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
             ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in.
           </p>
-          <button class="left-button"> Comprar </button>
-          <button class="right-button"> Leia mais </button>
+          <div class="button-box">
+            <button class="left-button"> Comprar </button>
+            <button class="right-button"> Leia mais </button>
+          </div>
 
         </div>
         <!-- Fim: nome x -->
 
         <!-- nome y -->
-        <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="col-sm-12 col-md-12 col-lg-6 text-center">
           <img class="img-fluid ingresso-img" src="./assets/img/ingressos/robo.svg" alt="Imagem do Robô com presente">
         </div>
         <!-- Fim: nome y -->

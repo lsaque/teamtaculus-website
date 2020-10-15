@@ -119,6 +119,28 @@
     padding-top: 22rem;
     margin: 0 3%;
   }
+
+  #ingressos .h3-estilization,
+  #ingressos .h4-estilization,
+  #ingressos p,
+  #ingressos button {
+    text-align: center;
+  }
+
+  #ingressos p {
+    max-width: 100%;
+  }
+
+  #ingressos .button-box {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  #ingressos .ingresso-img {
+    max-width: 85%;
+    float: none;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 800px) {}
@@ -200,6 +222,25 @@
   footer .right-content {
     text-align: center !important;
   }
+
+  #inicio .row {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #inicio span {
+    border-left: 0;
+    border-bottom: 0;
+  }
+
+  #inicio img {
+    max-width: 75%;
+    float: none;
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 600px) {}
