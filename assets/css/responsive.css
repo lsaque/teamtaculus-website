@@ -2,7 +2,12 @@
 =            Responsive Layout                =
 =============================================*/
 
-@media screen and (min-width:1950px) {
+@media screen and (min-width:1900px) {
+
+  .container {
+    max-width: 85rem;
+  }
+
   nav {
     font-size: 1.25rem;
   }
@@ -93,12 +98,47 @@
     margin: 0 2rem;
   }
 
+  #inicio img {
+    max-width: 80%;
+  }
+
   #contato .row {
     margin: 0 2rem;
   }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width:1200px) {
+
+  #inicio h1 {
+    font-size: 5.6em;
+  }
+
+  #inicio h2 {
+    font-size: 5em;
+  }
+
+  #inicio span p {
+    font-size: 1.5em;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  #contato .h4-estilization {
+    padding-bottom: 2rem;
+    font-size: 3.4em;
+  }
+
+  #contato .h5-estilization {
+    font-size: 2.2em;
+  }
+
+  #contato .p-estilization {
+    font-size: 1.6em;
+  }
+
+}
 
 @media screen and (max-width:1000px) {}
 
@@ -106,6 +146,42 @@
   #inicio {
     padding-top: 6rem;
   }
+
+  #inicio .ordem-1 {
+    order: 2;
+  }
+
+  #inicio .ordem-2 {
+    order: 1;
+  }
+
+  #inicio h1 {
+    padding-top: 40px;
+  }
+
+  #inicio .row {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #inicio span {
+    border-left: 0;
+    border-bottom: 0;
+  }
+
+  #inicio img {
+    max-width: 50%;
+    float: none;
+    text-align: center;
+  }
+
+  #inicio .row {
+    margin: 0;
+    padding-bottom: 50px;
+  }
+
 }
 
 @media screen and (max-width:991px) {
@@ -161,6 +237,7 @@
 @media screen and (max-width: 800px) {}
 
 @media screen and (max-width: 767px) {
+
   #competicao {
     padding-top: 13rem;
     margin: 0 3%;
@@ -238,31 +315,21 @@
     text-align: center !important;
   }
 
-  #inicio .row {
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  #inicio span {
-    border-left: 0;
-    border-bottom: 0;
-  }
-
-  #inicio img {
-    max-width: 75%;
-    float: none;
-    text-align: center;
-  }
-
-  #inicio .row {
-    margin: 0;
-  }
-
   #contato .row {
     margin: 0;
   }
+
+  #competicao h3,
+  .projeto-module h3 {
+    font-size: 4.2em;
+  }
+
+  #competicao h4,
+  #projeto h4,
+  .projeto-module h4 {
+    font-size: 3.6em;
+  }
+
 }
 
 @media screen and (max-width: 600px) {}
@@ -292,9 +359,6 @@
     margin-left: 0;
   }
 
-  .projeto-module h4 {
-    font-size: 49px;
-  }
 }
 
 @media screen and (max-width: 480px) {}

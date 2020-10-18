@@ -1,0 +1,11 @@
+/* Animação da Home */
+
+  @keyframes upAndDown {
+    from {
+      bottom: -10px;
+    }
+    to {
+      bottom: 10px;
+    }
+  }
+

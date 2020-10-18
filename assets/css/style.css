@@ -8,10 +8,11 @@ body {
   /* max-width: 100vw; */
   margin: auto;
   font-family: 'Raleway', sans-serif;
+  font-size: 62.5%;
 }
 
 .container {
-  max-width: 85rem;
+  /* max-width: 85rem; */
   /* width: 100%; */
   /* max-width: 93.75rem; */
 }
@@ -34,7 +35,7 @@ nav {
   min-height: 71px;
   height: auto;
   /* height: 5.5rem; */
-  font-size: 14px;
+  font-size: 1.4em;
   font-weight: 600;
   /* font-size: calc(0.9rem + 0.2vw); */
 }
@@ -93,8 +94,8 @@ nav ul .nav-item a.nav-effect::after {
 }
 
 nav ul .nav-item a.nav-effect:hover::after {
-  /* background-color: #16D0D3; */
-  background: linear-gradient(104deg, rgba(203, 62, 201, 1) 0%, rgb(22, 208, 211) 100%);
+  background-color: #16D0D3;
+  /* background: linear-gradient(104deg, rgba(203, 62, 201, 1) 0%, rgb(22, 208, 211) 100%); */
   width: 100%;
   transition: 0.5s;
 }
@@ -136,14 +137,14 @@ nav ul .nav-item .botao-nav:hover {
   /* font-size: 4.75rem; */
   color: white;
   font-weight: bolder;
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: 6.6em;
 }
 
 #inicio h2 {
   /* font-size: 4.438rem; */
   color: white;
   font-weight: lighter;
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: 6em;
 }
 
 #inicio span {
@@ -154,11 +155,10 @@ nav ul .nav-item .botao-nav:hover {
 }
 
 #inicio span p {
-  /* font-size: 1.25rem; */
   margin-left: 5%;
   color: white;
   font-weight: normal;
-  font-size: calc(1rem + 0.2vw);
+  font-size: 1.6em;
 }
 
 #inicio .button-estilization,
@@ -166,7 +166,7 @@ nav ul .nav-item .botao-nav:hover {
   background-color: transparent;
   text-decoration: none;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.8em;
   border-radius: 26px;
   padding: 1.2% 10%;
   border: 1px solid #16D0D3;
@@ -187,6 +187,11 @@ nav ul .nav-item .botao-nav:hover {
   float: right;
   /* border: 1px solid red; */
   /* padding: 100%; */
+  position: relative;
+  animation: upAndDown 1s infinite;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 /*=============================================
@@ -221,7 +226,7 @@ nav ul .nav-item .botao-nav:hover {
   font-weight: bolder;
   /* font-size: 3.375rem; */
   /* font-size: calc(1.05rem + 2vw); */
-  font-size: 38px;
+  font-size: 3.8em;
   margin-bottom: 0;
   color: #41516A;
   text-transform: uppercase;
@@ -233,7 +238,7 @@ nav ul .nav-item .botao-nav:hover {
   font-weight: normal;
   /* font-size: 3.0625rem; */
   /* font-size: calc(1rem + 1.7vw); */
-  font-size: 24px;
+  font-size: 2.4em;
   margin-bottom: 2.5rem;
   color: #41516A;
   text-align: center;
@@ -280,7 +285,7 @@ nav ul .nav-item .botao-nav:hover {
   width: 105px;
   border: 2px solid #16D0D3;
   box-shadow: 0px 4px 5px rgba(25, 28, 3, 0.25);
-  font-size: 30px;
+  font-size: 3em;
   line-height: 100px;
   vertical-align: auto;
   text-align: center;
@@ -288,14 +293,14 @@ nav ul .nav-item .botao-nav:hover {
 
 #projeto ul li h4 {
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 2.4em;
   color: #40546D;
   padding-bottom: 20px;
 }
 
 #projeto ul li p {
   color: #40546D;
-  font-size: 16px;
+  font-size: 1.6em;
   font-weight: lighter;
   margin: auto;
   max-width: 228px;
@@ -346,7 +351,7 @@ nav ul .nav-item .botao-nav:hover {
 .h3-estilization {
   /* font-size: 4.125rem; */
   /* font-size: calc(1.1rem + 2.6vw); */
-  font-size: 54px;
+  font-size: 5.4em;
   color: white;
   font-weight: bolder;
 }
@@ -355,7 +360,7 @@ nav ul .nav-item .botao-nav:hover {
 .h4-estilization {
   /* font-size: 3.8125rem; */
   /* font-size: calc(1.1rem + 2.3vw); */
-  font-size: 52px;
+  font-size: 5.2em;
   color: white;
   font-weight: lighter;
 }
@@ -374,7 +379,7 @@ nav ul .nav-item .botao-nav:hover {
   text-decoration: none;
   /* font-size: 1.25rem; */
   /* font-size: calc(1rem + 0.2vw); */
-  font-size: 16px;
+  font-size: 1.6em;
   margin-left: 30px;
   color: white;
   font-weight: normal;
@@ -395,7 +400,7 @@ nav ul .nav-item .botao-nav:hover {
   text-align: center;
   text-decoration: none;
   background-color: rgba(96, 36, 218, 0.8);
-  font-size: 20px;
+  font-size: 2em;
   font-weight: bold;
   transition: all 0.3s ease;
 }
@@ -559,12 +564,12 @@ nav ul .nav-item .botao-nav:hover {
 
 .slick-card-title h3 {
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 2.4em;
   color: #40546D;
 }
 
 .slick-card-title p {
-  font-size: 16px;
+  font-size: 1.6em;
   color: #40546D;
   margin-bottom: 2px;
 }
@@ -599,7 +604,7 @@ nav ul .nav-item .botao-nav:hover {
 .slick-card-description p {
   text-align: center;
   padding: 7px 35px;
-  font-size: 14px;
+  font-size: 1.4em;
   color: #40546D;
 }
 
@@ -615,7 +620,7 @@ nav ul .nav-item .botao-nav:hover {
 #robo p {
   color: #3F5770;
   /* font-size: calc(1rem + 0.45vw); */
-  font-size: 20px;
+  font-size: 2em;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -728,12 +733,12 @@ nav ul .nav-item .botao-nav:hover {
 #contato .h5-estilization {
   color: white;
   /* font-size: calc(1.1rem + 2.3vw); */
-  font-size: calc(1rem + 1.3vw);
+  font-size: 2.6em;
   font-weight: bolder;
 }
 
 #contato .p-estilization {
-  font-size: 20px;
+  font-size: 2em;
   font-weight: lighter;
   color: white;
   margin-left: 0;
@@ -763,7 +768,7 @@ nav ul .nav-item .botao-nav:hover {
 #contato input::placeholder,
 #contato textarea::placeholder {
   color: #C8C8C8;
-  font-size: 15px;
+  font-size: 0.8em;
   font-weight: bolder;
 }
 
@@ -791,6 +796,7 @@ nav ul .nav-item .botao-nav:hover {
   background-color: transparent;
   transition: 0.8s;
   outline: none;
+  font-size: 1.6em;
 }
 
 /*=============================================
@@ -821,12 +827,12 @@ nav ul .nav-item .botao-nav:hover {
 #ingressos .h3-estilization,
 #ingressos .h4-estilization {
   text-transform: uppercase;
-  font-size: calc(2.5rem + 2.6vw);
+  font-size: 7.6em;
 }
 
 #ingressos p {
   color: #DEDEDE;
-  font-size: 20px;
+  font-size: 2em;
   max-width: 63%;
   padding-bottom: 1rem;
 }
@@ -839,6 +845,7 @@ nav ul .nav-item .botao-nav:hover {
   border-radius: 80px;
   border: none;
   color: white;
+  font-size: 1.6em;
 }
 
 #ingressos .left-button {
@@ -902,7 +909,7 @@ footer .container .row {
 }
 
 footer .footer-title {
-  font-size: 1rem;
+  font-size: 1.6em;
   color: #4B4B4B;
   padding-bottom: 2rem;
   font-weight: bolder;
@@ -919,13 +926,13 @@ footer .footer-title strong {
 
 footer .footer-content {
   color: #969696;
-  font-size: 1rem;
+  font-size: 1.6em;
   max-width: 77%;
   list-style-type: none;
 }
 
 footer h3 {
-  font-size: calc(1rem + 1vw) !important;
+  font-size: 2.2em !important;
   font-weight: bold !important;
   color: #212529 !important;
   max-width: 100% !important;
@@ -960,6 +967,7 @@ footer .novidades input {
   line-height: 3.3rem;
   padding-left: 35px;
   max-width: 65%;
+  font-size: 1.4em;
 }
 
 footer .novidades input:focus {
@@ -980,7 +988,7 @@ footer .novidades button {
   -o-border-radius: 32px;
   height: 73%;
   width: 30%;
-  font-size: 16px;
+  font-size: 1.6em;
 }
 
 footer .novidades button:focus {
@@ -1001,7 +1009,7 @@ footer .container-fluid span {
   font-family: 'Poppins';
   font-weight: normal;
   color: #808080;
-  font-size: 12px;
+  font-size: 1.6em;
 }
 
 footer .container-fluid span a:link,
