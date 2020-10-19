@@ -43,62 +43,64 @@
         </a>
 
         <!-- Menu Hamburguer -->
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu">
+        <button class="navbar-toggler js-navbar-toggler" id="menu-toggle" data-target="#nav-menu" aria-expanded="false">
           <!-- Ícone -->
-          <i class="fas fa-bars text-white"></i>
+          <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
           <!-- Fim: Ícone -->
         </button>
         <!-- Fim: Menu Hamburguer -->
 
         <!-- Itens do Menu -->
-        <div class="collapse navbar-collapse" id="nav-menu">
-          <ul class="navbar-nav navbar-light mx-auto text-center">
+        <div class="navbar-collapse d-flex" id="nav-menu">
+          <div class="mobile-menu-align align-self-center">
+            <ul class="navbar-nav navbar-light mx-auto text-center nav-primary">
 
-            <!-- Item 01: Início -->
-            <li class="nav-item">
-              <a href="" class="nav-link nav-effect"> Início </a>
-            </li>
+              <!-- Item 01: Início -->
+              <li class="nav-item">
+                <a href="#inicio" class="nav-link nav-effect" onclick="navAtivar();"> Início </a>
+              </li>
 
-            <!-- Item 02: Projeto -->
-            <li class="nav-item">
-              <a href="" class="nav-link nav-effect"> Projeto </a>
-            </li>
+              <!-- Item 02: Projeto -->
+              <li class="nav-item">
+                <a href="#projeto" class="nav-link nav-effect" onclick="navAtivar();"> Projeto </a>
+              </li>
 
-            <!-- Item 03: Competição -->
-            <li class="nav-item">
-              <a href="" class="nav-link nav-effect"> Competição </a>
-            </li>
+              <!-- Item 03: Competição -->
+              <li class="nav-item">
+                <a href="#competicao" class="nav-link nav-effect" onclick="navAtivar();"> Competição </a>
+              </li>
 
-            <!-- Item 04: Equipe -->
-            <li class="nav-item">
-              <a href="" class="nav-link nav-effect"> Equipe </a>
-            </li>
+              <!-- Item 04: Equipe -->
+              <li class="nav-item">
+                <a href="#equipe" class="nav-link nav-effect" onclick="navAtivar();"> Equipe </a>
+              </li>
 
-            <!-- Item 05: Robô -->
-            <li class="nav-item">
-              <a href="" class="nav-link nav-effect"> Robô </a>
-            </li>
+              <!-- Item 05: Robô -->
+              <li class="nav-item">
+                <a href="#robo" class="nav-link nav-effect" onclick="navAtivar();"> Robô </a>
+              </li>
 
-            <!-- Item 06: Contato -->
-            <li class="nav-item">
-              <a href="" class="nav-link nav-effect"> Contato </a>
-            </li>
-          </ul>
+              <!-- Item 06: Contato -->
+              <li class="nav-item">
+                <a href="#contato" class="nav-link nav-effect" onclick="navAtivar();"> Contato </a>
+              </li>
+            </ul>
 
-          <ul class="navbar-nav text-center">
+            <ul class="navbar-nav text-center nav-secondary">
 
-            <!-- Item 07: Ingressos -->
-            <li class="nav-item">
-              <a href="" class="nav-link botao-nav ingressos"> Ingressos </a>
-            </li>
+              <!-- Item 07: Ingressos -->
+              <li class="nav-item">
+                <a href="#ingressos" class="nav-link botao-nav btnIngresso" onclick="navAtivar();"> Ingressos </a>
+              </li>
 
-            <!-- Item 08: Investidores -->
-            <li class="nav-item mx-auto">
-              <a href="" class="nav-link botao-nav invest" data-toggle="modal" data-target=".bd-example-modal-lg">
-                Investidor </a>
-            </li>
+              <!-- Item 08: Investidores -->
+              <li class="nav-item mx-auto">
+                <a href="" class="nav-link botao-nav btnInvestidor" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="navAtivar();">
+                  Investidor </a>
+              </li>
 
-          </ul>
+            </ul>
+          </div>
         </div>
         <!-- Fim: Itens do Menu -->
 
@@ -242,8 +244,8 @@
     <div class="projeto-module">
       <div class="container-fluid">
         <div class="row justify-content-center">
-          <div class="col-12 col-sm-10 col-md-11 col-lg-6 left-content">
-            <a href="#" class="round-button" data-toggle="modal" data-target="#videoModal"
+          <div class="col-12 col-sm-10 col-md-11 col-lg-6 left-content d-flex">
+            <a href="#" class="round-button align-self-center" data-toggle="modal" data-target="#videoModal"
               data-theVideo="https://youtu.be/6LNvmspMVyI"><i class="fa fa-play fa-2x"></i></a>
           </div>
           <div class="col-12 col-sm-10 col-md-11 col-lg-6 right-content">
@@ -280,7 +282,7 @@
 
     <!-- Navegação: Competição -->
     <section id="competicao">
-      <div class="container">
+      <div class="container pt-5">
 
         <!-- nome elemento pai -->
         <div class="row">

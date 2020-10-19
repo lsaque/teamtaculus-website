@@ -9,3 +9,14 @@
     }
   }
 
+  @keyframes leftAndRight {
+    from {
+      left: -10px;
+      bottom: -10px;
+    }
+    to {
+      left: 0px;
+      bottom: 10px;
+    }
+  }
+

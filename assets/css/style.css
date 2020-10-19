@@ -17,6 +17,31 @@ body {
   /* max-width: 93.75rem; */
 }
 
+/* Efeito de suavização de rolagem */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*=============================================
+=        Barra de Rolagem Customizada         =
+=============================================*/
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7.5px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #16d0d3;
+  border-radius: 50px;
+}
+
 /*=============================================
 =            Navbar - Estilização            =
 =============================================*/
@@ -49,40 +74,43 @@ nav .logo:hover {
   -webkit-filter: brightness(150%);
 }
 
-nav ul .ingressos,
-nav ul .nav-item .nav-link {
-  color: white;
+nav .mobile-menu-align {
+  display: flex;
+  flex-direction: row;
+}
+
+nav .mobile-menu-align ul .nav-item .nav-link {
+  color: #fff;
   margin: 0 0.938rem;
   margin-top: 3.5px;
 }
 
-nav ul .ingressos {
-  border: 2px solid white;
+nav .mobile-menu-align ul .nav-item .nav-link.ingressos {
+  background-color: white;
+  color: #000;
 }
 
-nav ul .ingressos:hover {
-  background-color: transparent !important;
-  color: white !important;
+nav .mobile-menu-align ul .ingressos:hover {
+  opacity: 0.9;
 }
 
-nav .invest {
-  border: 2px solid white !important;
-  margin-left: 6px !important;
-  background-color: transparent !important;
-  color: white !important;
+nav .mobile-menu-align ul .nav-item .nav-link.invest {
+  border: 3px solid #fff;
+  margin-left: 6px;
+  background-color: transparent;
+  color: #fff;
+  line-height: 16px;
 }
 
-nav ul .invest:hover {
-  background-color: white !important;
-  color: black !important;
+nav .mobile-menu-align ul .nav-item .nav-link.invest:hover {
+  opacity: 1;
 }
 
-
-nav ul .nav-item .nav-link .nav-effect {
+nav .mobile-menu-align ul .nav-item .nav-link .nav-effect {
   border-bottom: 1px solid transparent;
 }
 
-nav ul .nav-item a.nav-effect::after {
+nav .mobile-menu-align ul .nav-item a.nav-effect::after {
   content: '';
   display: block;
   width: auto;
@@ -93,26 +121,121 @@ nav ul .nav-item a.nav-effect::after {
   transition: all ease-in-out 0.5s;
 }
 
-nav ul .nav-item a.nav-effect:hover::after {
+nav .mobile-menu-align ul .nav-item a.nav-effect:hover::after {
   background-color: #16D0D3;
   /* background: linear-gradient(104deg, rgba(203, 62, 201, 1) 0%, rgb(22, 208, 211) 100%); */
   width: 100%;
   transition: 0.5s;
 }
 
-nav ul .nav-item .botao-nav {
-  color: #1F143F;
-  background-color: white;
+nav .mobile-menu-align ul .nav-item .botao-nav {
   width: 8rem;
   margin: auto;
   margin-top: 5px;
   border-radius: 26px;
-
   transition: opacity 0.5s;
 }
 
-nav ul .nav-item .botao-nav:hover {
-  opacity: 0.9;
+button.js-navbar-toggler:focus {
+  border: none;
+  outline: none;
+}
+
+.animated-icon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.animated-icon span {
+  background: #fff;
+}
+
+.animated-icon span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon span:nth-child(2), .animated-icon span:nth-child(3) {
+  top: 10px;
+}
+
+.animated-icon span:nth-child(4) {
+  top: 20px;
+}
+
+.animated-icon.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.animated-icon.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.animated-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.animated-icon.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.gradient-button {
+  background: linear-gradient(127deg, rgba(203,62,201,1) 0%, rgba(22,208,211,1) 100%);
+  color: #fff;
+  border-color: transparent;
+  transition: 0.5s;
+}
+
+.gradient-button:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
+  border: 3px solid rgba(22,208,211,1);
+  margin-left: 6px;
+  color: #fff;
+  line-height: 16px;
+  background-color: transparent;
+  transition: 0.5s;
 }
 
 /*=============================================
@@ -647,6 +770,11 @@ nav ul .nav-item .botao-nav:hover {
 #robo .robo-galeria {
   text-align: center;
   justify-content: center;
+  position: relative;
+  animation: leftAndRight 1s infinite;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 /*=============================================
@@ -859,6 +987,11 @@ nav ul .nav-item .botao-nav:hover {
 
 #ingressos .ingresso-img {
   max-height: 85%;
+  position: relative;
+  animation: upAndDown 1s infinite;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 /*=============================================
@@ -1015,17 +1148,4 @@ footer .container-fluid span {
 footer .container-fluid span a:link,
 footer .container-fluid span a:visited {
   color: #808080;
-}
-
-footer .left-content,
-.right-content {
-  padding: 0;
-}
-
-footer .left-content {
-  text-align: left;
-}
-
-footer .right-content {
-  text-align: right;
 }

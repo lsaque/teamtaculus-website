@@ -109,6 +109,77 @@
 
 @media screen and (max-width:1200px) {
 
+  .navbar-nav.nav-primary {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navbar-nav.nav-secondary {
+    margin: auto;
+    padding-top: 7%;
+  }
+
+  .navbar-toggler.is-active+.navbar-collapse {
+    opacity: 1;
+    right: 0;
+  }
+
+  .navbar-collapse {
+    background: #000;
+    position: absolute;
+    top: 0;
+    padding-top: 60px;
+    opacity: 0;
+    right: -100vw;
+    height: 100vh;
+    width: 100vw;
+    transition: all .3s ease-in-out;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .navbar-primary {
+    flex-direction: column;
+    font-size: 40px;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+  }
+
+  .nav-link a {
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  nav .mobile-menu-align ul:first-child {
+    margin-bottom: 5px;
+  }
+
+  .navbar-toggler.is-active+.navbar-collapse::after {
+    opacity: 1;
+    z-index: -3;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    z-index: 999;
+  }
+
+  nav .mobile-menu-align {
+    display: grid;
+    margin: auto;
+  }
+
+  img.logo {
+    position: relative;
+    display: inline;
+    z-index: 999;
+  }
+
   #inicio h1 {
     font-size: 5.6em;
   }
@@ -119,6 +190,44 @@
 
   #inicio span p {
     font-size: 1.5em;
+  }
+
+  #competicao .h4-estilization {
+    font-size: 4.8em;
+  }
+
+  #competicao .h3-estilization {
+    font-size: 4.6em;
+  }
+
+  nav .mobile-menu-align ul .nav-item .nav-link.invest,
+  nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
+    margin-left: 0px;
+  }
+
+  nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
+    margin-top: 10px;
+  }
+
+  nav .mobile-menu-align ul .nav-item .nav-link.ingressos {
+    background: linear-gradient(127deg, rgba(203,62,201,1) 0%, rgba(22,208,211,1) 100%);
+    color: #fff;
+    border-color: transparent;
+    transition: 0.5s;
+  }
+
+  nav .mobile-menu-align ul .nav-item .nav-link.ingressos:hover {
+    filter: brightness(110%);
+    -webkit-filter: brightness(110%); 
+  }
+
+  nav .mobile-menu-align ul .nav-item .nav-link.invest {
+    border: 3px solid rgba(22,208,211,1);
+    margin-top: 10px;
+    color: #fff;
+    line-height: 16px;
+    background-color: transparent;
+    transition: 0.5s;
   }
 
 }
@@ -142,7 +251,8 @@
 
 @media screen and (max-width:1000px) {}
 
-@media screen and (max-width:993px) {
+@media screen and (max-width:992px) {
+
   #inicio {
     padding-top: 6rem;
   }
@@ -180,6 +290,18 @@
   #inicio .row {
     margin: 0;
     padding-bottom: 50px;
+  }
+
+  #projeto ul li i {
+    border-radius: 100%;
+    height: 85px;
+    width: 85px;
+    font-size: 2.2em;
+    line-height: 85px;
+  }
+
+  #projeto ul li p {
+    font-size: 1.6em;
   }
 
 }
@@ -361,6 +483,61 @@
 
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
 
-@media screen and (max-width:320px) {}
+  body {
+    font-size: 50%;
+  }
+
+  #ingressos .h3-estilization,
+  #ingressos .h4-estilization {
+  font-size: 5.4em;    
+  }
+
+  #ingressos .right-button {
+    margin-top: 5px;
+  }
+
+}
+
+@media screen and (max-width:340px) {
+
+  #inicio h1 {
+    /* font-size: 4.75rem; */
+    font-size: 4.4em;
+  }
+
+  #inicio h2 {
+    /* font-size: 4.438rem; */
+    font-size: 4em;
+  }
+
+  #projeto ul li i {
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    font-size: 2em;
+    line-height: 75px;
+  }
+
+  #projeto .row {
+    padding-bottom: 20rem;
+  }
+
+  #competicao {
+    padding-top: 6rem;
+  }
+
+  #competicao h3, .projeto-module h3 {
+    font-size: 4em;
+  }
+
+  #robo .row {
+    padding-bottom: 40px;
+  }
+
+  footer .container-fluid span {
+    font-size: 1.35em;
+  }
+
+}
