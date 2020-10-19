@@ -99,7 +99,7 @@ nav .mobile-menu-align ul .nav-item .nav-link.invest {
   margin-left: 6px;
   background-color: transparent;
   color: #fff;
-  line-height: 16px;
+  line-height: 1.2em;
 }
 
 nav .mobile-menu-align ul .nav-item .nav-link.invest:hover {
@@ -130,6 +130,8 @@ nav .mobile-menu-align ul .nav-item a.nav-effect:hover::after {
 
 nav .mobile-menu-align ul .nav-item .botao-nav {
   width: 8rem;
+  padding-left: 5px;
+  padding-right: 5px;
   margin: auto;
   margin-top: 5px;
   border-radius: 26px;
@@ -233,7 +235,7 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
   border: 3px solid rgba(22,208,211,1);
   margin-left: 6px;
   color: #fff;
-  line-height: 16px;
+  line-height: 1.2em;
   background-color: transparent;
   transition: 0.5s;
 }
