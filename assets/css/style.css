@@ -346,6 +346,10 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
   border-radius: 26px;
 }
 
+#projeto h4 {
+  text-transform: uppercase;
+}
+
 #projeto h3,
 .h3-title {
   font-weight: bolder;
@@ -434,6 +438,33 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
 /*=============================================
 =        Projeto Module - Estilização         =
 =============================================*/
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+
+.close {
+  position:absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight:normal;
+  color:#fff;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.close:hover {
+  color: #fff;
+  opacity: 0.5;
+}
 
 .projeto-module {
   margin-top: -270px !important;
@@ -1048,11 +1079,12 @@ footer .footer-title {
   color: #4B4B4B;
   padding-bottom: 2rem;
   font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer .footer-title span {
-  font-family: 'Poppins';
-  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 footer .footer-title strong {
@@ -1141,7 +1173,7 @@ footer .container-fluid .row {
 }
 
 footer .container-fluid span {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: normal;
   color: #808080;
   font-size: 1.6em;

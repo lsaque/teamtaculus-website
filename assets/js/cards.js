@@ -7,40 +7,40 @@
     alt: "Lorem ipsum",
     title: "Lorem ipsum",
     nome: "André Borges",
-    titulo: "Diretor",
-    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    titulo: "Head of Sales",
+    descricao: "Apaixonado por números, sou o princípal responsável pela parte de vendas da equipe."
   };
   var integrante2 = {
     img: "./assets/img/equipe/icon-slider-2.png",
     alt: "Lorem ipsum",
     title: "Lorem ipsum",
     nome: "Gustavo Gomes",
-    titulo: "Diretor",
-    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    titulo: "Head of Marketing",
+    descricao: "Focado em técnicas comerciais para a maior visibilidade do projeto, sou responsável pela parte de marketing da TeamTaculus."
   };
   var integrante3 = {
     img: "./assets/img/equipe/icon-slider-3.png",
     alt: "Lorem ipsum",
     title: "Lorem ipsum",
     nome: "Igor Pereira",
-    titulo: "Diretor",
-    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    titulo: "Software Engineer",
+    descricao: "Trabalhando como a construção, desenvolvimento e manutenção dos projetos, sou responsável pela parte de development da equipe."
   };
   var integrante4 = {
     img: "./assets/img/equipe/icon-slider-4.png",
     alt: "Lorem ipsum",
     title: "Lorem ipsum",
     nome: "Isaque José",
-    titulo: "Diretor",
-    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    titulo: "Web Designer",
+    descricao: "Atuando na elaboração, desenvolvimento e prototipação de aplicações web, sou responsável pela parte estética e funcional da TeamTaculus."
   };
   var integrante5 = {
     img: "./assets/img/equipe/icon-slider-5.png",
     alt: "Lorem ipsum",
     title: "Lorem ipsum",
     nome: "Leonardo Duarte",
-    titulo: "Diretor",
-    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    titulo: "CEO",
+    descricao: "Um verdadeiro líder nato, me destaco pela minha organização e controle, sempre extraindo o máximo de rendimento da equipe."
   };
 
   // Função para otimizar exibição de conteúdo

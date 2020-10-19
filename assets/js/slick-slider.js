@@ -7,6 +7,7 @@ $(document).ready(function () {
     arrows: false,
     infinite: false,
     slidesToShow: 1,
+    focusOnSelect: true,
     variableWidth: true,
     initialSlide: 2,
     responsive: [{

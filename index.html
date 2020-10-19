@@ -138,9 +138,9 @@
             <h1 class=""> TUDO NOSSO </h1>
             <h2 class=""> E NADA DELES </h2>
             <span>
-              <p>Lorem ipsum dolor sit amet, suaysuahu adipiscing <br>elit sed nonummy nibh euismod </p>
+              <p>O robô desenvolvido promete trazer não só o troféu, como a ira das profundezas para a arena! </p>
             </span>
-            <button class="button-estilization"> Leia mais </button>
+            <a class="btn button-estilization" href="#projeto"> Leia mais </a>
 
           </div>
           <!-- Fim: nome x -->
@@ -180,9 +180,9 @@
                   <i class="fas fa-location-arrow"></i>
                 </div>
                 <div class="project-content">
-                  <h4> TITULO </h4>
+                  <h4> Criatividade </h4>
                   <p>
-                    Lorem ipsum dolor sit amet, suaysuahu adipiscing elit sed, sed diam nonummy nibh
+                    O robô Cthulhu traz a temática do fundo dos mares para a competição.
                   </p>
                 </div>
               </li>
@@ -195,9 +195,9 @@
                   <i class="fas fa-location-arrow"></i>
                 </div>
                 <div class="project-content">
-                  <h4> TITULO </h4>
+                  <h4> Desempenho </h4>
                   <p>
-                    Lorem ipsum dolor sit amet, suaysuahu adipiscing elit sed, sed diam nonummy nibh
+                    Com seu poderoso sistema de baterias, o robô consegue lutar por até 1 hora!
                   </p>
                 </div>
               </li>
@@ -210,9 +210,9 @@
                   <i class="fas fa-location-arrow"></i>
                 </div>
                 <div class="project-content">
-                  <h4> TITULO </h4>
+                  <h4> Estratégia </h4>
                   <p>
-                    Lorem ipsum dolor sit amet, suaysuahu adipiscing elit sed, sed diam nonummy nibh
+                    Pensando em extrair todo o potencial possível, o robô foi feito no limite permitido.
                   </p>
                 </div>
               </li>
@@ -225,9 +225,9 @@
                   <i class="fas fa-location-arrow"></i>
                 </div>
                 <div class="project-content">
-                  <h4> TITULO </h4>
+                  <h4> Força </h4>
                   <p>
-                    Lorem ipsum dolor sit amet, suaysuahu adipiscing elit sed, sed diam nonummy nibh
+                    Projetado para ser mortal, Cthulhu destrói seus oponentes em poucos segundos.
                   </p>
                 </div>
               </li>
@@ -245,8 +245,7 @@
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-12 col-sm-10 col-md-11 col-lg-6 left-content d-flex">
-            <a href="#" class="round-button align-self-center" data-toggle="modal" data-target="#videoModal"
-              data-theVideo="https://youtu.be/6LNvmspMVyI"><i class="fa fa-play fa-2x"></i></a>
+            <a href="#" class="round-button align-self-center" data-toggle="modal" data-target="#videoModal" data-src="https://www.youtube.com/embed/kULpMcVOy5I"><i class="fa fa-play fa-2x"></i></a>
           </div>
           <div class="col-12 col-sm-10 col-md-11 col-lg-6 right-content">
             <div class="internal-content">
@@ -264,17 +263,22 @@
     </div>
 
     <!-- Modal: Video | Projeto-module -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModal" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
+    
           <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <div>
-              <iframe width="100%" height="500" src="https://www.youtube.com/embed/6LNvmspMVyI" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+    
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- 16:9 -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
             </div>
+    
           </div>
+    
         </div>
       </div>
     </div>
@@ -293,15 +297,16 @@
               <h3 class="h3-estilization"> A COMPETIÇÃO </h3>
               <h4 class="h4-estilization"> E TUDO SOBRE </h4>
               <span class="span-estilization">
-                <p class="p-estilization">Lorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh
-                  euismod Lorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh euismod
-                  Lorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh euismod<br><br>
+                <p class="p-estilization">A Robocup é o projeto multidisciplinar proposto pela FIAP para as turmas de 1º ano do curso de Sistemas de Informação.
+                Criada em 2004, a Robocup é a competição mais antiga da faculdade. A disputa consiste na elaboração e desenvolvimento de
+                um robô motorizado com um sistema de armas e um balão. O objetivo da competição é estourar o balão do robô adversário
+                através das armas instaladas em seu robô.<br><br>
 
-                  Lorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum dolor
-                  sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh euismod
+                As equipes que conseguem o melhor desempenho na competição participam das finais no evento do NEXT, onde podem acabar
+                sendo recompensadas com um prêmio de até R$ 5.000, fora um maravilhoso shape exclusivo do evento.
                 </p>
               </span>
-              <button class="button-estilization" href=""> Acesse </button>
+              <a class="btn button-estilization" href="https://www.fiap.com.br/2019/11/02/robocup-1si/" target="_blank"> Acesse </a>
             </div>
 
           </div>
@@ -480,11 +485,10 @@
 
             <div class="contato-row">
               <h5 class="h5-estilization">Endereço:</h5>
-              <p class="p-estilization">Lorem ipsum dolor sit amet, suaysuahu adipiscing elit, sed diam nonummy nibh
-                euismod nonummy nibh euismod Lorem</p>
+              <p class="p-estilization">Av. Lins de Vasconcelos, 1264 - Aclimação, São Paulo - SP, 01538-001</p>
 
               <h5 class="h5-estilization">Telefone:</h5>
-              <p class="p-estilization">+55 11 987654321</p>
+              <p class="p-estilization">+55 11 4759-3700 (Comercial)</p>
 
               <h5 class="h5-estilization">E-mail:</h5>
               <p class="p-estilization">teamtaculus@gmail.com</p>
@@ -609,9 +613,8 @@
         <!-- Item 01: Empresa -->
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <h5 class="footer-title"><span><strong>Team</strong>Taculus</span></h5>
-          <p class="footer-content">O Teamtaculus é uma empresa braba, desenvolvidas para agradar os webdesigners mais
-            exigentes.
-            Só pra destacar: Tudo nosso e nada deles !</p>
+          <p class="footer-content">A TeamTaculus é uma equipe formada por cinco integrantes, que tem como principal objetivo o desenvolvimento através da
+          robótica.</p>
         </div>
 
         <!-- Item 02: Mapa -->
@@ -630,9 +633,9 @@
         <!-- Item 03: Contato -->
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <h5 class="footer-title">Contato</h5>
-          <p class="footer-content">+ 55 (11) 4759-3700 - Comercial,
-            Avenida Francisco Ferreira Lopes,
-            3448, Vila Jundiaí - CEP: 08745-000, Mogi das Cruzes - São Paulo</p>
+          <p class="footer-content">+55 (11) 4759-3700 - Comercial,
+            Av. Lins de Vasconcelos, 1264 - Aclimação, São Paulo - SP, CEP: 01538-001
+          </p>
         </div>
 
         <!-- Item 04: Newsletter -->
