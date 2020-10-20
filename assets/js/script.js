@@ -47,19 +47,17 @@ function scrollFunction() {
 }
 
 // Botão Hamburguer
-
 $(document).ready(function () {
   $('.js-navbar-toggler').on('click', function () {
     $('.animated-icon').toggleClass('open');
   });
 });
 
-// BotÃ£o do menu Hamburguer
+// Botão do menu Hamburguer
 const navBtn = document.querySelector(".js-navbar-toggler");
 navBtn.addEventListener("click", function () {
   this.classList.toggle("is-active");
 });
-// Fim BotÃ£o do menu Hamburguer
 
 // Fechar navbar mobile
 function navAtivar() {
@@ -68,8 +66,7 @@ function navAtivar() {
   $('.animated-icon').toggleClass('open');
 }
 
-/* Vídeo Modal | Projeto */
-
+// Vídeo Modal | Projeto 
 var $videoSrc;
 $('.round-button').click(function () {
   $videoSrc = $(this).data("src");

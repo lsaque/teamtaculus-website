@@ -4,90 +4,9 @@
 
 @media screen and (min-width:1600px) {
 
-  /* .container {
-    max-width: 85rem;
-  } */
-
-  nav {
-    font-size: 1.25rem;
-  }
-
-  #inicio h1 {
-    font-size: 4.75rem;
-  }
-
-  #inicio h2 {
-    font-size: 4.438rem;
-  }
-
-  #inicio span p {
-    font-size: 1.25rem;
-  }
-
-  #projeto h3,
-  .h3-title {
-    font-size: 3.375rem;
-  }
-
-  #projeto p,
-  .p-title {
-    font-size: 3.0625rem;
-  }
-
-  .projeto-module h3,
-  .h3-estilization {
-    font-size: 4.125rem;
-  }
-
-  .projeto-module h4,
-  .h4-estilization {
-    font-size: 3.8125rem;
-  }
-
-  .projeto-module span p,
-  .p-estilization {
-    font-size: 1.25rem;
-  }
-
-  .projeto-module .left-content {
-    padding: 1rem;
-  }
-
-  #competicao {
-    padding-top: 8.5rem;
-    padding-bottom: 4rem;
-  }
-
-  #contato {
-    padding-bottom: 5rem;
-  }
-
-  #contato .h5-estilization {
-    font-size: 2.5rem;
-  }
-
-  #ingressos .row {
-    padding-top: 76px;
-    padding-bottom: 160px;
-  }
-
-  #ingressos .h3-estilization,
-  #ingressos .h4-estilization {
-    font-size: 5.25rem;
-  }
-
-  footer h3 {
-    font-size: 2rem !important;
-  }
-
-  .botao-nav {
-    padding-left: 5px;
-    padding-right: 50px;
-  }
-
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1920px) {
   #inicio .row {
     margin: 0 2rem;
   }
