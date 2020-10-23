@@ -72,15 +72,13 @@ $('.round-button').click(function () {
   $videoSrc = $(this).data("src");
 });
 
-// when the modal is opened autoplay it  
+// Auto play no vídeo ao abrir o modal
 $('#videoModal').on('shown.bs.modal', function () {
-
-  // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+  // Adicionando algumas propriedades ao vídeo
   $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
 })
 
-// stop playing the youtube video when I close the modal
+// Finalizara o vídeo ao fechar o modal
 $('#videoModal').on('hide.bs.modal', function () {
-  // a poor man's stop video
   $("#video").attr('src', $videoSrc);
 })
