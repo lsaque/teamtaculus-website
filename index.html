@@ -30,18 +30,15 @@
 </head>
 
 <body>
-
   <!-- Início: Cabeçalho -->
   <header>
     <!-- Menu -->
     <nav class="navbar navbar-expand-xl fixed-top" id="menu">
       <div class="container">
-
         <!-- Logo do Site -->
         <a href="#inicio" class="navbar-brand">
           <img src="./assets/img/Icon/logo2.svg" class="logo" width="200px" alt="" title="">
         </a>
-
         <!-- Menu Hamburguer -->
         <button class="navbar-toggler js-navbar-toggler" id="menu-toggle" data-target="#nav-menu" aria-expanded="false">
           <!-- Ícone -->
@@ -54,56 +51,46 @@
         <div class="navbar-collapse d-flex" id="nav-menu">
           <div class="mobile-menu-align align-self-center">
             <ul class="navbar-nav navbar-light mx-auto text-center nav-primary">
-
               <!-- Item 01: Início -->
               <li class="nav-item">
                 <a href="#inicio" class="nav-link nav-effect" onclick="navAtivar();"> Início </a>
               </li>
-
               <!-- Item 02: Projeto -->
               <li class="nav-item">
                 <a href="#projeto" class="nav-link nav-effect" onclick="navAtivar();"> Projeto </a>
               </li>
-
               <!-- Item 03: Competição -->
               <li class="nav-item">
                 <a href="#competicao" class="nav-link nav-effect" onclick="navAtivar();"> Competição </a>
               </li>
-
               <!-- Item 04: Equipe -->
               <li class="nav-item">
                 <a href="#equipe" class="nav-link nav-effect" onclick="navAtivar();"> Equipe </a>
               </li>
-
               <!-- Item 05: Robô -->
               <li class="nav-item">
                 <a href="#robo" class="nav-link nav-effect" onclick="navAtivar();"> Robô </a>
               </li>
-
               <!-- Item 06: Contato -->
               <li class="nav-item">
                 <a href="#contato" class="nav-link nav-effect" onclick="navAtivar();"> Contato </a>
               </li>
             </ul>
-
             <ul class="navbar-nav text-center nav-secondary">
-
               <!-- Item 07: Ingressos -->
               <li class="nav-item">
                 <a href="#ingressos" class="nav-link botao-nav btnIngresso" onclick="navAtivar();"> Ingressos </a>
               </li>
-
               <!-- Item 08: Investidores -->
               <li class="nav-item mx-auto">
-                <a href="" class="nav-link botao-nav btnInvestidor" data-toggle="modal" data-target=".bd-example-modal-xl" onclick="navAtivar();">
+                <a href="" class="nav-link botao-nav btnInvestidor" data-toggle="modal"
+                  data-target=".bd-example-modal-xl" onclick="navAtivar();">
                   Investidor </a>
               </li>
-
             </ul>
           </div>
         </div>
         <!-- Fim: Itens do Menu -->
-
       </div>
     </nav>
     <!-- Fim: Menu -->
@@ -114,8 +101,8 @@
   <main>
 
     <!-- Modal: Investidores -->
-    <div id="modalInvestidor" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
-      aria-hidden="true">
+    <div id="modalInvestidor" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog"
+      aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
@@ -124,172 +111,175 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
+
           <div class="modal-body">
             <div class="container mt-4">
 
               <!-- Investidores: Introdução -->
               <div class="row">
-
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Introdução </h4>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                  
                   <p class="text-justify">
-                    A robótica transmite um impacto muito grande na nossa sociedade através de inovações em diversas áreas. Seja por
-                    extinguir alguns tipos de trabalhos ou possibilitar a criação de novos, como na medicina onde hoje é possível médicos
-                    realizarem cirurgias delicadas a distância, ou até mesmo em um uso básico no cotidiano como em eletrodomésticos e
-                    relacionamentos sociais. Todos esses fatores por si só já representam uma ciência interdisciplinar de grandes
+                    A robótica transmite um impacto muito grande na nossa sociedade através de inovações em diversas
+                    áreas. Seja por
+                    extinguir alguns tipos de trabalhos ou possibilitar a criação de novos, como na medicina onde hoje é
+                    possível médicos
+                    realizarem cirurgias delicadas a distância, ou até mesmo em um uso básico no cotidiano como em
+                    eletrodomésticos e
+                    relacionamentos sociais. Todos esses fatores por si só já representam uma ciência interdisciplinar
+                    de grandes
                     possibilidades na educação. </br> </br>
 
-                    A educação é um campo fértil para o uso da tecnologia, tendo em vista a gama de possibilidades que apresenta, tornando a
-                    aprendizagem mais dinâmica e motivadora. Dentre os recursos tecnológicos utilizados na educação, destaca-se a Robótica Educacional, que possibilita ao estudante desenvolver habilidades e competências como trabalho de pesquisa, a capacidade
-                    crítica, o senso de saber contornar as dificuldades na resolução de problemas e o desenvolvimento do raciocínio lógico. </br> </br>
+                    A educação é um campo fértil para o uso da tecnologia, tendo em vista a gama de possibilidades que
+                    apresenta, tornando a
+                    aprendizagem mais dinâmica e motivadora. Dentre os recursos tecnológicos utilizados na educação,
+                    destaca-se a Robótica Educacional, que possibilita ao estudante desenvolver habilidades e
+                    competências como trabalho de pesquisa, a capacidade
+                    crítica, o senso de saber contornar as dificuldades na resolução de problemas e o desenvolvimento do
+                    raciocínio lógico. </br> </br>
 
-                    A robótica educacional não é jovem, tendo surgido por volta da década de 1960, quando seu pioneiro Seymour Papert
-                    desenvolvia sua teoria sobre o construcionismo e defendia o uso de computador nas escolas como um recurso que atraía as
-                    crianças. Pode ser definida como um conjunto de conceitos tecnológicos aplicados à educação, em que o aprendiz tem
-                    acesso a computadores e softwares, componentes eletromecânicos como motores, engrenagens, sensores, rodas e um ambiente
-                    de programação para que os componentes citados possam funcionar. O primordial da dinâmica da robótica educacional é
-                    conciliar as aplicações e problemas da vida real entre alunos e professores, provindo assim diferentes tipos de
+                    A robótica educacional não é jovem, tendo surgido por volta da década de 1960, quando seu pioneiro
+                    Seymour Papert
+                    desenvolvia sua teoria sobre o construcionismo e defendia o uso de computador nas escolas como um
+                    recurso que atraía as
+                    crianças. Pode ser definida como um conjunto de conceitos tecnológicos aplicados à educação, em que
+                    o aprendiz tem
+                    acesso a computadores e softwares, componentes eletromecânicos como motores, engrenagens, sensores,
+                    rodas e um ambiente
+                    de programação para que os componentes citados possam funcionar. O primordial da dinâmica da
+                    robótica educacional é
+                    conciliar as aplicações e problemas da vida real entre alunos e professores, provindo assim
+                    diferentes tipos de
                     conhecimento.
                   </p>
-
                 </div>
               </div>
               <!-- Fim: Introdução -->
 
               <!-- Investidores: Ambiente de negócios -->
               <div class="row mb-2">
-
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Ambiente de negócios e oportunidades </h4>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6 d-flex">
                   <p class="text-justify align-self-center">
-                    De acordo com os dados disponibilizados através do site da Aranca, é possível observar que o mercado global de Robótica
-                    Educacional foi avaliado em US$ 2.29 bilhões em 2015, e espera-se atingir US$ 6.05 bilhões em 2020, crescendo em 21%. </br> </br>
-                    Também é esperado uma alta no mercado de Robótica Educacional influenciada pelo crescimento de várias startups de
+                    De acordo com os dados disponibilizados através do site da Aranca, é possível observar que o mercado
+                    global de Robótica
+                    Educacional foi avaliado em US$ 2.29 bilhões em 2015, e espera-se atingir US$ 6.05 bilhões em 2020,
+                    crescendo em 21%. </br> </br>
+                    Também é esperado uma alta no mercado de Robótica Educacional influenciada pelo crescimento de
+                    várias startups de
                     robótica que estão constantemente lançando novas ideias, inovações e tecnologias.
                   </p>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                  <img src="./assets/img/investidor/grafico-ambiente-negocios-1.png" alt="Gráfico de crescimento da robótica" title="Crescimento da robótica educacional" class="img-fluid">
+                  <img src="./assets/img/investidor/grafico-ambiente-negocios-1.png"
+                    alt="Gráfico de crescimento da robótica" title="Crescimento da robótica educacional"
+                    class="img-fluid">
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h6> Notas Técnicas: </h6>
                   <p class="text-justify">
-                    - As projeções realizadas através do <a href="./assets/img/investidor/grafico-ambiente-negocios-2.png" target="_blank"> gráfico da função exponencial </a> são os mais atrativos para os investidores, pois
-                    devido a alta confiabilidade do seu R² (próximo a 100%), podemos estimar um crescimento seguro para os próximos 4 anos
+                    - As projeções realizadas através do <a
+                      href="./assets/img/investidor/grafico-ambiente-negocios-2.png" target="_blank"> gráfico da função
+                      exponencial </a> são os mais atrativos para os investidores, pois
+                    devido a alta confiabilidade do seu R² (próximo a 100%), podemos estimar um crescimento seguro para
+                    os próximos 4 anos
                     do mercado global de robótica educacional.
                   </p>
                 </div>
-
               </div>
               <!-- Fim: Ambiente de negócios -->
 
               <!-- Investidor: Análises Técnicas -->
               <div class="row mb-2">
-
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Análises Técnicas de Negócios </h4>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <h6> <i class="fas fa-check-circle color-check-1 pr-1"></i> Projeções </h6>
                   <p class="text-justify">
-                    Após realizar a construção de gráficos a partir de quatro tipo de funções (linear, exponencial, logarítmica e
-                    polinomial), foi possível observar que todos possuem um R² muito bem acentuado, o que transmite confiabilidade e
+                    Após realizar a construção de gráficos a partir de quatro tipo de funções (linear, exponencial,
+                    logarítmica e
+                    polinomial), foi possível observar que todos possuem um R² muito bem acentuado, o que transmite
+                    confiabilidade e
                     segurança para projeções, além de ser um ótimo atrativo para investidores.
                   </p>
-
                   <h6> <i class="fas fa-check-circle color-check-2 pr-1"></i> Crescimento </h6>
                   <p class="text-justify">
-                    Em todas as projeções foi observado um crescimento para os próximos 4 anos, mostrando que o setor de Robótica
+                    Em todas as projeções foi observado um crescimento para os próximos 4 anos, mostrando que o setor de
+                    Robótica
                     Educacional só tende a expandir ainda mais com o decorrer do tempo.
                   </p>
-
                   <h6> <i class="fas fa-check-circle color-check-3 pr-1"></i> Investimento </h6>
                   <p class="text-justify">
-                    Empresas e Startup's que desejam explorar este segmento tem a segurança de saber que estão investindo em algo em
+                    Empresas e Startup's que desejam explorar este segmento tem a segurança de saber que estão
+                    investindo em algo em
                     crescimento, tendo em vista o enorme mercado que ainda pode ser desbravado.
                   </p>
                 </div>
-
               </div>
               <!-- Fim: Análises Técnicas -->
 
               <!-- Investidor: Inovações de Gestão -->
               <div class="row mb-2">
-                
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Inovações das formas de gestão </h4>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6">
                   <h6> Investimento </h6>
                   <p class="text-justify">
-                    Empresas e Startup's que desejam explorar este segmento tem a segurança de saber que estão investindo em algo em
+                    Empresas e Startup's que desejam explorar este segmento tem a segurança de saber que estão
+                    investindo em algo em
                     crescimento, tendo em vista o enorme mercado que ainda pode ser desbravado.
                   </p>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6">
                   <h6> Reuniões </h6>
                   <p class="text-justify">
-                    Daily Stand Up Meeting, visando acompanhamento das tomadas de decisão e dos resultados de projetos, incluindo
+                    Daily Stand Up Meeting, visando acompanhamento das tomadas de decisão e dos resultados de projetos,
+                    incluindo
                     orientações claras e consistentes.
                   </p>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6">
                   <h6> Práticas </h6>
                   <p class="text-justify">
                     Acompanhar todas as sequências de atividades, desde a idéia de um serviço até o seu produto final.
                   </p>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6">
                   <h6> Dashboard </h6>
                   <p class="text-justify">
                     Dashboard único para acompanhamentos de todas da empresa, incluindo acesso aos KPIs.
                   </p>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6">
                   <h6> Decisões </h6>
                   <p class="text-justify">
                     Decisões baseadas em fatos e números, com a apresentação de dashboard dos resultados.
                   </p>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6">
                   <h6> Visibilidade </h6>
                   <p class="text-justify">
                     Melhor visibilidade das informações para os membros, desde job description e metas claras.
                   </p>
                 </div>
-
               </div>
               <!-- Fim: Inovações de Gestão -->
 
               <!-- Investidor: Ciclo construir, medir e aprender -->
               <div class="row mb-2">
-              
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Ciclo construir, medir e aprender </h4>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6">
-
                   <p class="text-left">
                     O ciclo construir-medir-aprender desenvolve enormes vantagens na empresa, tais como:
                   </p>
-
                   <ul class="text-left">
                     <li> Proposta de valor; </li>
                     <li> Segmentação de clientes e canais de distribuição; </li>
@@ -299,148 +289,135 @@
                     <li> Recursos e parcerias necessárias para as atividades; </li>
                     <li> Estrutura de custos resultante do modelo. </li>
                   </ul>
-
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                  <img src="./assets/img/investidor/ciclo.png" alt="Imagem do ciclo construir-medir-aprender" title="Ciclo construir-medir-aprender" class="img-fluid ciclo-img">
+                  <img src="./assets/img/investidor/ciclo.png" alt="Imagem do ciclo construir-medir-aprender"
+                    title="Ciclo construir-medir-aprender" class="img-fluid ciclo-img">
                 </div>
-
               </div>
               <!-- Fim: Ciclo construir, medir e aprender -->
 
               <!-- Investidor: Critério de antecipação de risco -->
               <div class="row mb-2 py-4 antecipacao-riscos">
-
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Critério de antecipações de risco </h4>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                  <h6 class="text-left"> 
+                  <h6 class="text-left">
                     <i class="fas fa-check-circle color-check-2 pr-1"></i>
                     Elaboração de contratos de prestação de serviços com desenvolvedores, fornecedores, etc;
                   </h6>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                  <h6 class="text-left"> 
+                  <h6 class="text-left">
                     <i class="fas fa-check-circle color-check-2 pr-1"></i>
                     Proteção dos ativos de propriedade intelectual, como por exemplo: patentes, marca, etc;
                   </h6>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                  <h6 class="text-left"> 
+                  <h6 class="text-left">
                     <i class="fas fa-check-circle color-check-2 pr-1"></i>
                     Monitoramento da concorrência;
                   </h6>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                  <h6 class="text-left"> 
+                  <h6 class="text-left">
                     <i class="fas fa-check-circle color-check-2 pr-1"></i>
                     Elaboração de protótipos;
                   </h6>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                  <h6 class="text-left"> 
+                  <h6 class="text-left">
                     <i class="fas fa-check-circle color-check-2 pr-1"></i>
                     Busca ativa de informações;
                   </h6>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-                  <h6 class="text-left"> 
+                  <h6 class="text-left">
                     <i class="fas fa-check-circle color-check-2 pr-1"></i>
                     Medidas e cuidados com base na pandemia.
                   </h6>
                 </div>
-
               </div>
               <!-- Fim: Critério de antecipação de risco -->
 
               <!-- Investidor: Pitch -->
               <div class="row mb-2">
-              
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Pitch de Apresentação </h4>
                 </div>
-
                 <div class="embed-responsive embed-responsive-16by9 mx-4 mb-4">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MisX4aBhqvk" allowfullscreen></iframe>
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MisX4aBhqvk"
+                    allowfullscreen></iframe>
                 </div>
-
               </div>
               <!-- Fim: Pitch -->
 
               <!-- Investidor: Canvas -->
               <div class="row mb-2">
-              
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Canvas </h4>
                 </div>
-              
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                  <p class="text-justify"> Para validar a viabilidade do nosso modelo de negócio, realizamoas a elaboração e construção do Canvas, que é uma
-                  ferramenta de planejamento estratégico que nos permitiu desenvolver nosso modelo de negócio, através da mapeação em nove
-                  blocos com alguns tópicos, como você pode visualizar a seguir: </p>
+                  <p class="text-justify"> Para validar a viabilidade do nosso modelo de negócio, realizamoas a
+                    elaboração e construção do Canvas, que é uma
+                    ferramenta de planejamento estratégico que nos permitiu desenvolver nosso modelo de negócio, através
+                    da mapeação em nove
+                    blocos com alguns tópicos, como você pode visualizar a seguir: </p>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                  <img src="./assets/img/investidor/canvas.png" alt="Canvas da TeamTaculus" title="Canvas da TeamTaculus" class="img-fluid">
-                  <p class="pt-4 font-italic"> Disponível para <a href="./assets/img/investidor/canvas.png" download> download </a> </p>
+                  <img src="./assets/img/investidor/canvas.png" alt="Canvas da TeamTaculus"
+                    title="Canvas da TeamTaculus" class="img-fluid">
+                  <p class="pt-4 font-italic"> Disponível para <a href="./assets/img/investidor/canvas.png" download>
+                      download </a> </p>
                 </div>
-
               </div>
               <!-- Fim: Canvas -->
 
               <!-- Investidor: Matriz SWOT -->
               <div class="row mb-2">
-              
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> Matriz SWOT </h4>
                 </div>
-              
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                  <p class="text-justify"> Pensando no planejamento estratégico, de tomada de decisões, e na longevidade do projeto, desenvolvemos a Matriz SWOT.
-                  Com ela podemos observer as nossas forças, fraquezas, oportunidades e ameaças com muito mais clareza, como visto a
-                  seguir: </p>
+                  <p class="text-justify"> Pensando no planejamento estratégico, de tomada de decisões, e na longevidade
+                    do projeto, desenvolvemos a Matriz SWOT.
+                    Com ela podemos observer as nossas forças, fraquezas, oportunidades e ameaças com muito mais
+                    clareza, como visto a
+                    seguir: </p>
                 </div>
-
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                  <img src="./assets/img/investidor/matriz-swot.png" alt="Matriz SWOT da TeamTaculus" title="Matriz da SWOT da TeamTaculus" class="img-fluid matriz-swot">
-                  <p class="pt-4 font-italic"> Disponível para <a href="./assets/img/investidor/matriz-swot.png" download> download </a> </p>
+                  <img src="./assets/img/investidor/matriz-swot.png" alt="Matriz SWOT da TeamTaculus"
+                    title="Matriz da SWOT da TeamTaculus" class="img-fluid matriz-swot">
+                  <p class="pt-4 font-italic"> Disponível para <a href="./assets/img/investidor/matriz-swot.png"
+                      download> download </a> </p>
                 </div>
-
               </div>
               <!-- Fim: Matriz SWOT -->
 
               <!-- Investidor: Matriz SWOT -->
               <div class="row mb-2">
-              
                 <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
                   <h4> DRE </h4>
                 </div>
-              
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                  <p class="text-justify"> 
-                    A Demonstração do Resultado do Exercício (DRE), foi um grande aliado para a nossa equipe. Foi de suma importância para a
-                    administração de nosso projeto. Esse relatório nos mostra dados das receitos e de despesas de nosso negócios,
-                    evidenciando o resultado líquido do nosso projeto e nos mostrando a real situação operacional de nosso negócio. Você
-                    pode estar conferindo o nosso DRE completo clicando <a href="./assets/img/investidor/DRE-TeamTaculus.xlsx" download> aqui </a> 
+                  <p class="text-justify">
+                    A Demonstração do Resultado do Exercício (DRE), foi um grande aliado para a nossa equipe. Foi de
+                    suma importância para a
+                    administração de nosso projeto. Esse relatório nos mostra dados das receitos e de despesas de nosso
+                    negócios,
+                    evidenciando o resultado líquido do nosso projeto e nos mostrando a real situação operacional de
+                    nosso negócio. Você
+                    pode estar conferindo o nosso DRE completo clicando <a
+                      href="./assets/img/investidor/DRE-TeamTaculus.xlsx" download> aqui </a>
                   </p>
                 </div>
-
               </div>
-              <!-- Fim: Matriz SWOT -->
-
+              <!-- Fim Investidor: Matriz SWOT -->
             </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-primary">Salvar mudanças</button>
           </div>
         </div>
       </div>
@@ -450,9 +427,7 @@
     <!-- Navegação: Início -->
     <section id="inicio">
       <div class="container">
-
         <div class="row">
-
           <!-- Texto de Introdução -->
           <div class="col-sm-12 col-md-12 col-lg-6 ordem-1">
             <h1 class=""> TUDO NOSSO </h1>
@@ -461,7 +436,6 @@
               <p>O robô desenvolvido promete trazer não só o troféu, como a ira das profundezas para a arena! </p>
             </span>
             <a class="btn button-estilization" href="#projeto"> Ver projeto </a>
-
           </div>
           <!-- Fim: Texto de Introdução -->
 
@@ -470,9 +444,7 @@
             <img class="img-fluid" src="./assets/img/Inicio/Robot.svg" alt="Imagem do Robô">
           </div>
           <!-- Fim: Imagem do Robô -->
-
         </div>
-
       </div>
     </section>
     <!-- Fim Navegação: Início -->
@@ -562,7 +534,8 @@
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-12 col-sm-10 col-md-11 col-lg-6 left-content d-flex">
-            <a href="#" class="round-button align-self-center" data-toggle="modal" data-target="#videoModal" data-src="https://www.youtube.com/embed/kULpMcVOy5I"><i class="fa fa-play fa-2x"></i></a>
+            <a href="#" class="round-button align-self-center" data-toggle="modal" data-target="#videoModal"
+              data-src="https://www.youtube.com/embed/gv6yq0y4SMU"><i class="fa fa-play fa-2x"></i></a>
           </div>
           <div class="col-12 col-sm-10 col-md-11 col-lg-6 right-content">
             <div class="internal-content">
@@ -570,7 +543,8 @@
               <h4> NOSSO ROBÔ </h4>
               <span>
                 <p>
-                  Desde o sistema de movimentação, até o sistema de armas do nosso robô, tudo foi milimétricamente calculado.<br><br>
+                  Desde o sistema de movimentação, até o sistema de armas do nosso robô, tudo foi milimétricamente
+                  calculado.<br><br>
                   Você pode estar assistindo nosso vídeo, onde explicamos sobre como o Cthulhu funciona!
                 </p>
               </span>
@@ -584,19 +558,15 @@
     <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModal" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-    
           <div class="modal-body">
-    
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <!-- 16:9 -->
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+              <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                allow="autoplay"></iframe>
             </div>
-    
           </div>
-    
         </div>
       </div>
     </div>
@@ -614,16 +584,21 @@
               <h3 class="h3-estilization"> A COMPETIÇÃO </h3>
               <h4 class="h4-estilization"> E TUDO SOBRE </h4>
               <span class="span-estilization">
-                <p class="p-estilization">A Robocup é o projeto multidisciplinar proposto pela FIAP para as turmas de 1º ano do curso de Sistemas de Informação.
-                Criada em 2004, a Robocup é a competição mais antiga da faculdade. A disputa consiste na elaboração e desenvolvimento de
-                um robô motorizado com um sistema de armas e um balão. O objetivo da competição é estourar o balão do robô adversário
-                através das armas instaladas em seu robô.<br><br>
+                <p class="p-estilization">A Robocup é o projeto multidisciplinar proposto pela FIAP para as turmas de 1º
+                  ano do curso de Sistemas de Informação.
+                  Criada em 2004, a Robocup é a competição mais antiga da faculdade. A disputa consiste na elaboração e
+                  desenvolvimento de
+                  um robô motorizado com um sistema de armas e um balão. O objetivo da competição é estourar o balão do
+                  robô adversário
+                  através das armas instaladas em seu robô.<br><br>
 
-                As equipes que conseguem o melhor desempenho na competição participam das finais no evento do NEXT, onde podem acabar
-                sendo recompensadas com um prêmio de até R$ 5.000, fora um maravilhoso shape exclusivo do evento.
+                  As equipes que conseguem o melhor desempenho na competição participam das finais no evento do NEXT,
+                  onde podem acabar
+                  sendo recompensadas com um prêmio de até R$ 5.000, fora um maravilhoso shape exclusivo do evento.
                 </p>
               </span>
-              <a class="btn button-estilization" href="https://www.fiap.com.br/2019/11/02/robocup-1si/" target="_blank"> Acessar </a>
+              <a class="btn button-estilization" href="https://www.fiap.com.br/2019/11/02/robocup-1si/" target="_blank">
+                Acessar </a>
             </div>
 
           </div>
@@ -681,17 +656,18 @@
 
           <!-- Texto - Robô -->
           <div class="col-10 robo-text">
-            <p class="text-left"> 
+            <p class="text-left">
               O Cthulhu é o robô da equipe TeamTaculus, projetado especialmente para participar da Robocup. </br> </br>
-              Ele é equipado com dois leques para atacar e se defender de adversários, possuindo um rápido sistema de movimentação que permite alcançar os inimigos com extrema facilidade. </br> </br>
-              Seu intuito é ganhar a competição, trazendo assim toda a glória e sucesso que nós buscamos! 
+              Ele é equipado com dois leques para atacar e se defender de adversários, possuindo um rápido sistema de
+              movimentação que permite alcançar os inimigos com extrema facilidade. </br> </br>
+              Seu intuito é ganhar a competição, trazendo assim toda a glória e sucesso que nós buscamos!
             </p>
           </div>
           <!-- Fim: Texto - Robô -->
-
         </div>
 
       </div>
+
       <div class="col-12 robo-galeria">
         <img src="./assets/img/robo/robo-galeria.svg" alt="Robô com lupa" title="Robô da galeria" class="img-fluid">
       </div>
@@ -701,9 +677,7 @@
     <!-- Navegação: Galeria -->
     <section id="galeria">
       <div class="container-fluid">
-
         <div class="row">
-
           <!-- Imagens da Galeria -->
           <div class="col-sm-12 col-md-12 col-lg-12 internal-content">
             <div class="row galeria-row gallery">
@@ -712,28 +686,32 @@
                   <div class="col-md-3 col-sm-12 co-xs-12 galeria-item galeria-esquerda">
                     <div class="box">
                       <a href="./assets/img/galeria/1.png">
-                        <img src="./assets/img/galeria/1.png" alt="Imagem do Robô" title="Imagem 01 do Robô" class="img-fluid img-sup-esq">
+                        <img src="./assets/img/galeria/1.png" alt="Imagem do Robô" title="Imagem 01 do Robô"
+                          class="img-fluid img-sup-esq">
                       </a>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-12 co-xs-12 galeria-item galeria-esquerda">
                     <div class="box">
                       <a href="./assets/img/galeria/2.png">
-                        <img src="./assets/img/galeria/2.png" alt="Imagem do Robô" title="Imagem 02 do Robô" class="img-fluid">
+                        <img src="./assets/img/galeria/2.png" alt="Imagem do Robô" title="Imagem 02 do Robô"
+                          class="img-fluid">
                       </a>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-12 co-xs-12 galeria-item galeria-esquerda">
                     <div class="box">
                       <a href="./assets/img/galeria/3.png">
-                        <img src="./assets/img/galeria/3.png" alt="Imagem do Robô" title="Imagem 03 do Robô" class="img-fluid">
+                        <img src="./assets/img/galeria/3.png" alt="Imagem do Robô" title="Imagem 03 do Robô"
+                          class="img-fluid">
                       </a>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-12 co-xs-12 galeria-item galeria-esquerda">
                     <div class="box">
                       <a href="./assets/img/galeria/4.png">
-                        <img src="./assets/img/galeria/4.png" alt="Imagem do Robô" title="Imagem 04 do Robô" class="img-fluid img-sup-dir">
+                        <img src="./assets/img/galeria/4.png" alt="Imagem do Robô" title="Imagem 04 do Robô"
+                          class="img-fluid img-sup-dir">
                       </a>
                     </div>
                   </div>
@@ -742,40 +720,41 @@
                   <div class="col-md-3 col-sm-12 co-xs-12 galeria-item">
                     <div class="box">
                       <a href="./assets/img/galeria/5.png">
-                        <img src="./assets/img/galeria/5.png" alt="Imagem do Robô" title="Imagem 05 do Robô" class="img-fluid img-inf-esq">
+                        <img src="./assets/img/galeria/5.png" alt="Imagem do Robô" title="Imagem 05 do Robô"
+                          class="img-fluid img-inf-esq">
                       </a>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-12 co-xs-12 galeria-item">
                     <div class="box">
                       <a href="./assets/img/galeria/6.png">
-                        <img src="./assets/img/galeria/6.png" alt="Imagem do Robô" title="Imagem 06 do Robô" class="img-fluid">
+                        <img src="./assets/img/galeria/6.png" alt="Imagem do Robô" title="Imagem 06 do Robô"
+                          class="img-fluid">
                       </a>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-12 co-xs-12 galeria-item">
                     <div class="box">
                       <a href="./assets/img/galeria/7.png">
-                        <img src="./assets/img/galeria/7.png" alt="Imagem do Robô" title="Imagem 07 do Robô" class="img-fluid">
+                        <img src="./assets/img/galeria/7.png" alt="Imagem do Robô" title="Imagem 07 do Robô"
+                          class="img-fluid">
                       </a>
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-12 co-xs-12 galeria-item">
                     <div class="box">
                       <a href="./assets/img/galeria/8.png">
-                        <img src="./assets/img/galeria/8.png" alt="Imagem do Robô" title="Imagem 08 do Robô" class="img-fluid img-inf-dir">
+                        <img src="./assets/img/galeria/8.png" alt="Imagem do Robô" title="Imagem 08 do Robô"
+                          class="img-fluid img-inf-dir">
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
           <!-- Fim: Imagens da Galeria -->
-
         </div>
-
       </div>
     </section>
     <!-- Fim Navegação: Galeria -->
@@ -783,25 +762,22 @@
     <!-- Navegação: Contato -->
     <section id="contato">
       <div class="container">
-
         <div class="row">
-
           <!-- Informações de Contato -->
           <div class="col-sm-12 col-md-5 col-lg-5 contato-detalhe">
+            <!-- Título Geral -->
             <h4 class="h4-estilization">Fale conosco: </h4>
-
+            <!-- Localização -->
             <div class="contato-row">
               <h5 class="h5-estilization">Endereço:</h5>
               <p class="p-estilization">Av. Lins de Vasconcelos, 1264 - Aclimação, São Paulo - SP, 01538-001</p>
-
+              <!-- Telefone -->
               <h5 class="h5-estilization">Telefone:</h5>
               <p class="p-estilization">+55 11 4759-3700 (Comercial)</p>
-
+              <!-- E-mail -->
               <h5 class="h5-estilization">E-mail:</h5>
               <p class="p-estilization">teamtaculus@gmail.com</p>
             </div>
-
-
           </div>
           <!-- Fim: Informações de Contato -->
 
@@ -828,35 +804,39 @@
                 <textarea rows="16" class="form-control" id="mensagem" placeholder="Mensagem:" required></textarea>
               </div>
               <div class="form-group text-center pt-4">
-                <button type="submit" class="contato-btn">Enviar formulário </button>
+                <button type="submit" class="contato-btn">Enviar</button>
               </div>
             </form>
           </div>
           <!-- Fim: Formulário de Contato -->
 
           <!-- Modal - Envio de formulário -->
-          <div id="formModal" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
+          <div id="formModal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-confirm modal-roxo" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Enviado!</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                  <div class="icon-box">
+                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="check" role="img"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                      class="svg-inline--fa fa-check fa-w-16 fa-3x">
+                      <path fill="currentColor"
+                        d="M435.848 83.466L172.804 346.51l-96.652-96.652c-4.686-4.686-12.284-4.686-16.971 0l-28.284 28.284c-4.686 4.686-4.686 12.284 0 16.971l133.421 133.421c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-28.284-28.284c-4.686-4.686-12.284-4.686-16.97 0z">
+                      </path>
+                    </svg>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"
+                    aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
-                  <p class="text-justify">Seu formulário de contato foi enviado com sucesso. </br> Iremos lhe responder o quanto antes! </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+                  <br>
+                  <h4>Enviado!</h4>
+                  <p class="text-center">Seu formulário de contato foi enviado com sucesso.</p>
                 </div>
               </div>
             </div>
           </div>
           <!-- Fim: Modal -->
-
         </div>
-
       </div>
     </section>
     <!-- Fim Navegação: Contato -->
@@ -867,31 +847,30 @@
         <img src="./assets/img/contato/shape.svg" alt="Chapa de divisão" class="shape img-fluid">
       </div>
       <div class="container">
-
         <div class="row">
-
           <!-- Informações dos Ingressos -->
           <div class="col-sm-12 col-md-12 col-lg-6 my-auto">
             <h3 class="h3-estilization">Ingressos</h3>
             <h4 class="h4-estilization">Robocup</h4>
-            <p>Venha prestigiar a mais antiga competição promovida pela FIAP, agora no NEXT! Para participar do evento é necessário realizar a compra de um ingresso no valor de R$ 30,00. Comprando seu ingresso você contribui com o iHelp, o projeto de responsabilidade social da FIAP.
+            <p>Venha prestigiar a mais antiga competição promovida pela FIAP, agora no NEXT! Para participar do evento é
+              necessário realizar a compra de um ingresso no valor de R$ 30,00. Comprando seu ingresso você contribui
+              com o iHelp, o projeto de responsabilidade social da FIAP.
             </p>
             <div class="button-box">
               <a href="https://www2.fiap.com.br/" target="_blank" class="btn left-button"> Comprar </a>
               <a href="https://www.fiap.com.br/next/convites/" target="_blank" class="btn right-button"> Acessar </a>
             </div>
-
           </div>
           <!-- Fim: Informações dos Ingressos -->
 
           <!-- Imagem do Robô - Ingressos -->
           <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-            <img class="img-fluid ingresso-img" src="./assets/img/ingressos/robo.svg" alt="Imagem do Robô com presente" title="Robô dos Ingressos">
+            <img class="img-fluid ingresso-img" src="./assets/img/ingressos/robo.svg" alt="Imagem do Robô com presente"
+              title="Robô dos Ingressos">
           </div>
           <!-- Fim: Imagem do Robô -->
         </div>
       </div>
-
     </section>
     <!-- Fim Navegação: Ingressos -->
 
@@ -900,48 +879,37 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-6 col-sm-6 col-md-3 col-lg-3 patrocinadores-align">
-            <img class="img-fluid"
-              src="./assets/img/apoio/apoio-fiap.svg"
-              alt="Logo da FIAP" tittle="Logo da FIAP">
+            <img class="img-fluid" src="./assets/img/apoio/apoio-fiap.svg" alt="Logo da FIAP" tittle="Logo da FIAP">
           </div>
           <div class="col-6 col-sm-6 col-md-3 col-lg-3 patrocinadores-align">
-            <img class="img-fluid"
-              src="./assets/img/apoio/apoio-next.svg"
-              alt="Logo do NEXT" tittle="Logo do NEXT">
+            <img class="img-fluid" src="./assets/img/apoio/apoio-next.svg" alt="Logo do NEXT" tittle="Logo do NEXT">
           </div>
           <div class="col-6 col-sm-6 col-md-3 col-lg-3 patrocinadores-align">
-            <img class="img-fluid"
-              src="./assets/img/apoio/apoio-sap.svg"
-              alt="Logo da SAP" tittle="Logo da SAP">
+            <img class="img-fluid" src="./assets/img/apoio/apoio-sap.svg" alt="Logo da SAP" tittle="Logo da SAP">
           </div>
           <div class="col-6 col-sm-6 col-md-3 col-lg-3 patrocinadores-align">
-            <img class="img-fluid"
-              src="./assets/img/apoio/apoio-teamtaculus.svg"
-              alt="Logo da TeamTaculus" tittle="Logo da TeamTaculus">
+            <img class="img-fluid" src="./assets/img/apoio/apoio-teamtaculus.svg" alt="Logo da TeamTaculus"
+              tittle="Logo da TeamTaculus">
           </div>
         </div>
       </div>
-
     </section>
     <!-- Fim: Apoiadores -->
-
   </main>
   <!-- Fim: Main -->
 
   <!-- Rodapé -->
   <footer class="rodape">
     <div class="container">
-
       <!-- Itens do Rodapé -->
       <div class="row">
-
         <!-- Item 01: Empresa -->
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <h5 class="footer-title"><span><strong>Team</strong>Taculus</span></h5>
-          <p class="footer-content">A TeamTaculus é uma equipe formada por cinco integrantes, que tem como principal objetivo o desenvolvimento através da
-          robótica.</p>
+          <p class="footer-content">A TeamTaculus é uma equipe formada por cinco integrantes, que tem como principal
+            objetivo o desenvolvimento através da
+            robótica.</p>
         </div>
-
         <!-- Item 02: Mapa -->
         <div class="col-12 col-sm-6 col-md-6 col-lg-2">
           <h5 class="footer-title">Mapa</h5>
@@ -954,7 +922,6 @@
             <li class="footer-content"><a href="#ingressos">Ingressos</a></li>
           </ul>
         </div>
-
         <!-- Item 03: Contato -->
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <h5 class="footer-title">Contato</h5>
@@ -962,7 +929,6 @@
             Av. Lins de Vasconcelos, 1264 - Aclimação, São Paulo - SP, CEP: 01538-001
           </p>
         </div>
-
         <!-- Item 04: Newsletter -->
         <div class="col-12 col-sm-6 col-md-6 col-lg-4">
           <h5 class="footer-title">Inscrevam-se no nosso E-mail</h5>
@@ -976,43 +942,45 @@
         </div>
 
         <!-- Modal - Inscrever -->
-        <div id="newsletterModal" class="modal" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
+        <div id="newsletterModal" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog  modal-confirm modal-roxo" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title">Inscrito!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                  <span aria-hidden="true">&times;</span>
-                </button>
+                <div class="icon-box">
+                  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="check" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                    class="svg-inline--fa fa-check fa-w-16 fa-3x">
+                    <path fill="currentColor"
+                      d="M435.848 83.466L172.804 346.51l-96.652-96.652c-4.686-4.686-12.284-4.686-16.971 0l-28.284 28.284c-4.686 4.686-4.686 12.284 0 16.971l133.421 133.421c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-28.284-28.284c-4.686-4.686-12.284-4.686-16.97 0z">
+                    </path>
+                  </svg>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"
+                  aria-hidden="true">&times;</button>
               </div>
               <div class="modal-body">
-                <p class="text-justify">Eba! Você agora está inscrito no nosso Newsletter :) </p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+                <br>
+                <h4>Parabéns!</h4>
+                <p class="text-center">Eba! Você agora está inscrito no nosso Newsletter :)</p>
               </div>
             </div>
           </div>
         </div>
         <!-- Fim: Inscrever -->
-
       </div>
     </div>
 
     <div class="container-fluid">
       <div class="row">
-
         <!-- Item 06: Copyright -->
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
           <div class="row">
             <div class="col-12">
               <span>Todos os direitos reservados. TeamTaculus &copy; 2020.</span>
             </div>
-
           </div>
         </div>
         <!-- Fim: Itens do Rodapé -->
-
       </div>
     </div>
   </footer>

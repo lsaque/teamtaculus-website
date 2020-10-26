@@ -5,16 +5,9 @@
 @charset "UTF-8";
 
 body {
-  /* max-width: 100vw; */
   margin: auto;
   font-family: 'Raleway', sans-serif;
   font-size: 62.5%;
-}
-
-.container {
-  /* max-width: 85rem; */
-  /* width: 100%; */
-  /* max-width: 93.75rem; */
 }
 
 /* Efeito de suavização de rolagem */
@@ -59,10 +52,8 @@ html {
 nav {
   min-height: 71px;
   height: auto;
-  /* height: 5.5rem; */
   font-size: 1.4em;
   font-weight: 600;
-  /* font-size: calc(0.9rem + 0.2vw); */
 }
 
 nav .logo {
@@ -123,7 +114,6 @@ nav .mobile-menu-align ul .nav-item a.nav-effect::after {
 
 nav .mobile-menu-align ul .nav-item a.nav-effect:hover::after {
   background-color: #16D0D3;
-  /* background: linear-gradient(104deg, rgba(203, 62, 201, 1) 0%, rgb(22, 208, 211) 100%); */
   width: 100%;
   transition: 0.5s;
 }
@@ -185,7 +175,8 @@ button.js-navbar-toggler:focus {
   top: 0px;
 }
 
-.animated-icon span:nth-child(2), .animated-icon span:nth-child(3) {
+.animated-icon span:nth-child(2),
+.animated-icon span:nth-child(3) {
   top: 10px;
 }
 
@@ -220,7 +211,7 @@ button.js-navbar-toggler:focus {
 }
 
 .gradient-button {
-  background: linear-gradient(127deg, rgba(203,62,201,1) 0%, rgba(22,208,211,1) 100%);
+  background: linear-gradient(127deg, rgba(203, 62, 201, 1) 0%, rgba(22, 208, 211, 1) 100%);
   color: #fff;
   border-color: transparent;
   transition: 0.5s;
@@ -232,7 +223,7 @@ button.js-navbar-toggler:focus {
 }
 
 nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
-  border: 3px solid rgba(22,208,211,1);
+  border: 3px solid rgba(22, 208, 211, 1);
   margin-left: 6px;
   color: #fff;
   line-height: 1.2em;
@@ -255,18 +246,15 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
 #inicio .row {
   min-height: 100vh;
   align-items: center;
-  /* margin: 0 2rem; */
 }
 
 #inicio h1 {
-  /* font-size: 4.75rem; */
   color: white;
   font-weight: bolder;
   font-size: 6.6em;
 }
 
 #inicio h2 {
-  /* font-size: 4.438rem; */
   color: white;
   font-weight: lighter;
   font-size: 6em;
@@ -303,15 +291,12 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
 }
 
 #inicio .button-estilization:hover {
-  /* background-color: #16D0D3; */
   background-size: 100% 100%;
 }
 
 #inicio img {
   max-width: 100%;
   float: right;
-  /* border: 1px solid red; */
-  /* padding: 100%; */
   position: relative;
   animation: upAndDown 1s infinite;
   animation-duration: 1s;
@@ -338,7 +323,6 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
 
 #projeto hr,
 .hr-title {
-  /* width: 78px; */
   max-width: 4.2rem;
   height: 4px;
   background-color: #15D2D5;
@@ -353,8 +337,6 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
 #projeto h3,
 .h3-title {
   font-weight: bolder;
-  /* font-size: 3.375rem; */
-  /* font-size: calc(1.05rem + 2vw); */
   font-size: 3.8em;
   margin-bottom: 0;
   color: #41516A;
@@ -365,8 +347,6 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
 #projeto .title-text p,
 .p-title {
   font-weight: normal;
-  /* font-size: 3.0625rem; */
-  /* font-size: calc(1rem + 1.7vw); */
   font-size: 2.4em;
   margin-bottom: 2.5rem;
   color: #41516A;
@@ -401,10 +381,8 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
 
 #projeto ul li .icon-box {
   width: 145px;
-  /* justify-content: center; */
   align-items: center;
   display: flex;
-  /* border: 1px solid red; */
 }
 
 #projeto ul li i {
@@ -439,20 +417,19 @@ nav .mobile-menu-align ul .nav-item .nav-link.outline-gradient-button {
 =        Projeto Module - Estilização         =
 =============================================*/
 
-
 .modal-body {
-  position:relative;
-  padding:0px;
+  position: relative;
+  padding: 0px;
 }
 
 .close {
-  position:absolute;
+  position: absolute;
   right: -30px;
   top: 0;
   z-index: 999;
   font-size: 2rem;
-  font-weight:normal;
-  color:#fff;
+  font-weight: normal;
+  color: #fff;
   opacity: 1;
   transition: 0.3s;
 }
@@ -501,8 +478,6 @@ main div.projeto-module {
 
 .projeto-module h3,
 .h3-estilization {
-  /* font-size: 4.125rem; */
-  /* font-size: calc(1.1rem + 2.6vw); */
   font-size: 5.4em;
   color: white;
   font-weight: bolder;
@@ -510,8 +485,6 @@ main div.projeto-module {
 
 .projeto-module h4,
 .h4-estilization {
-  /* font-size: 3.8125rem; */
-  /* font-size: calc(1.1rem + 2.3vw); */
   font-size: 5.2em;
   color: white;
   font-weight: lighter;
@@ -529,8 +502,6 @@ main div.projeto-module {
 .projeto-module span p,
 .p-estilization {
   text-decoration: none;
-  /* font-size: 1.25rem; */
-  /* font-size: calc(1rem + 0.2vw); */
   font-size: 1.6em;
   margin-left: 30px;
   color: white;
@@ -564,7 +535,6 @@ main div.projeto-module {
   text-shadow: 0px 0px 10px rgba(96, 36, 218, 1);
 }
 
-
 /*=============================================
 =            Competição - Estilização         =
 =============================================*/
@@ -595,7 +565,6 @@ main div.projeto-module {
 }
 
 #competicao .button-estilization:hover {
-  /* background-color: #16D0D3; */
   background-size: 100% 100%;
   color: white;
 }
@@ -603,30 +572,6 @@ main div.projeto-module {
 #competicao .p-estilization {
   width: 100%;
 }
-
-
-/* #competicao button {
-  background: url('../img/inicio/bg-button.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  font-size: 1.25rem;
-  color: #313149;
-  padding: 15px 75px;
-  border: 1px solid transparent;
-  display: inline-block;
-  text-transform: uppercase;
-  outline: none;
-  transition: color 0.1s;
-}
-
-#competicao .btn-gradient:hover {
-  background: url('../img/inicio/bg-button-hover.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: #fff;
-} */
 
 /*=============================================
 =            Equipe - Estilização             =
@@ -680,8 +625,6 @@ main div.projeto-module {
   position: relative;
 }
 
-/* Utilizar a configuração a baixo caso o slide seja infinite mode */
-/* .slick-slide:not(.slick-active) .slick-card-body { */
 .slick-slide:not(.slick-current) .slick-card-body {
   margin-top: 30px;
   height: 380px;
@@ -771,7 +714,6 @@ main div.projeto-module {
 
 #robo p {
   color: #3F5770;
-  /* font-size: calc(1rem + 0.45vw); */
   font-size: 2em;
   text-align: center;
   padding-bottom: 30px;
@@ -867,7 +809,6 @@ main div.projeto-module {
   border-bottom-right-radius: 80px;
 }
 
-
 /*=============================================
 =              Contato - Estilização          =
 =============================================*/
@@ -889,7 +830,6 @@ main div.projeto-module {
 
 #contato .h5-estilization {
   color: white;
-  /* font-size: calc(1.1rem + 2.3vw); */
   font-size: 2.6em;
   font-weight: bolder;
 }
@@ -946,25 +886,134 @@ main div.projeto-module {
   -moz-border-radius: 80px;
   -ms-border-radius: 80px;
   -o-border-radius: 80px;
-  width: 270px;
+  width: 170px;
   height: 43px;
   color: #fff;
   border: 2px solid #fff;
   background-color: transparent;
-  transition: 0.8s;
+  transition: 0.3s;
   outline: none;
   font-size: 1.6em;
 }
 
-#contato #formModal h5,
-#newsletterModal h5 {
-  color: #000;
+#contato .contato-btn:hover {
+  background-color: white;
+  color: #6024DA;
 }
 
-#contato #formModal p,
-#newsletterModal p {
-  font-size: 1.6em;
-  padding: 16px;
+/* Formulário de contato - Estilização */
+.modal-confirm {
+  color: #434e65;
+  width: 525px;
+}
+
+.modal-confirm .modal-content {
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.modal-confirm .modal-header {
+  border-bottom: none;
+  position: relative;
+  text-align: center;
+  margin: -20px -20px 0;
+  border-radius: 5px 5px 0 0;
+  padding: 35px;
+}
+
+.modal-confirm h4 {
+  text-align: center;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.modal-confirm .form-control,
+.modal-confirm .btn {
+  min-height: 40px;
+  border-radius: 3px;
+}
+
+.modal-confirm .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 0.5;
+}
+
+.modal-confirm .close:hover {
+  opacity: 0.8;
+}
+
+.modal-confirm .icon-box {
+  color: #fff;
+  width: 95px;
+  height: 95px;
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 9;
+  border: 5px solid #fff;
+  padding: 15px;
+  text-align: center;
+  margin-left: 40%;
+}
+
+.modal-confirm .icon-box i {
+  font-size: 64px;
+  margin: -4px 0 0 -4px;
+}
+
+.modal-confirm.modal-dialog {
+  margin-top: 80px;
+}
+
+.modal-confirm .btn {
+  width: AUTO;
+  height: 45px;
+  border: 1px solid #d1d1d1;
+  border-radius: 24px;
+  color: #878787;
+  background: #fff;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.modal-confirm .btn:hover,
+.modal-confirm .btn:focus {
+  color: #ffffff;
+  transition: all 0.4s ease 0s;
+}
+
+.modal-confirm .btn span {
+  margin: 1px 3px 0;
+  float: left;
+}
+
+.modal-confirm .btn i {
+  margin-left: 1px;
+  font-size: 20px;
+  float: right;
+}
+
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
+
+.modal-roxo .modal-header {
+  background: #925df0;
+}
+
+.modal-roxo .btn:hover,
+.modal-roxo .btn:focus {
+  background: #925df0;
+  border-color: #925df0;
 }
 
 /*=============================================
@@ -1019,12 +1068,23 @@ main div.projeto-module {
 
 #ingressos .left-button {
   background-image: linear-gradient(104deg, rgba(203, 62, 201, 1) 0%, rgba(0, 0, 164, 1) 100%);
+  transition: all 0.4s;
+}
+
+#ingressos .left-button:hover {
+  opacity: 0.6;
 }
 
 #ingressos .right-button {
   border: 2px solid #CB3EC9;
   background-color: transparent;
   line-height: 28px;
+  transition: all 0.4s;
+}
+
+#ingressos .right-button:hover {
+  background-color: #CB3EC9;
+  color: white;
 }
 
 #ingressos .ingresso-img {
@@ -1044,7 +1104,9 @@ main div.projeto-module {
   background-color: #161823;
 }
 
-#modalInvestidor h4, h5, h6 {
+#modalInvestidor h4,
+h5,
+h6 {
   color: #fff;
   font-weight: 600;
 }
@@ -1063,7 +1125,7 @@ main div.projeto-module {
   max-width: 96%;
 }
 
-#modalInvestidor p, 
+#modalInvestidor p,
 #modalInvestidor li {
   font-size: 1.6em;
   color: #D9D9D9;
@@ -1099,7 +1161,7 @@ main div.projeto-module {
   content: "\2022";
   color: #b230fc;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
@@ -1120,6 +1182,17 @@ main div.projeto-module {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 400px;
+}
+
+#modalInvestidor .modal-footer button {
+  background-color: #925df0;
+  border: 0px;
+  transition: all 0.5s;
+}
+
+#modalInvestidor .modal-footer button:hover {
+  background-color: white;
+  color: #925df0;
 }
 
 /*=============================================
@@ -1226,7 +1299,7 @@ footer .novidades {
   height: 3.3rem;
 }
 
-footer .novidades form input {
+footer .novidades input {
   border: none;
   background-color: transparent;
   color: #212121;
@@ -1237,12 +1310,12 @@ footer .novidades form input {
   font-size: 1.4em;
 }
 
-footer .novidades form input:focus {
+footer .novidades input:focus {
   outline: none;
   padding-left: 35px;
 }
 
-footer .novidades form button {
+footer .novidades button {
   background: rgb(195, 0, 251);
   background: linear-gradient(90deg, rgba(195, 0, 251, 1) 0%, rgba(7, 7, 76, 1) 100%);
   border: none;
@@ -1253,12 +1326,18 @@ footer .novidades form button {
   -moz-border-radius: 32px;
   -ms-border-radius: 32px;
   -o-border-radius: 32px;
-  height: 36px;
-  width: 30%;
+  height: 2.5em;
+  width: 40%;
   font-size: 1.6em;
+
+  transition: all 0.4s;
 }
 
-footer .novidades form button:focus {
+footer .novidades button:hover {
+  opacity: 0.7;
+}
+
+footer .novidades button:focus {
   outline: none;
 }
 
