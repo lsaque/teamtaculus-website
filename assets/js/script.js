@@ -82,3 +82,25 @@ $('#videoModal').on('shown.bs.modal', function () {
 $('#videoModal').on('hide.bs.modal', function () {
   $("#video").attr('src', $videoSrc);
 })
+
+// Desabilitando o submit do form
+document.querySelector('#formularioContato').addEventListener('submit', function (event) {
+  event.preventDefault();
+
+  // Chamando modal
+  $('#formModal').modal('show');
+
+  this.reset();
+
+});
+
+// Desabilitando o submit do form
+document.querySelector('#newsletterForm').addEventListener('submit', function (event) {
+  event.preventDefault();
+
+  // Chamando modal
+  $('#newsletterModal').modal('show');
+
+  this.reset();
+
+});

@@ -946,7 +946,7 @@ main div.projeto-module {
   -moz-border-radius: 80px;
   -ms-border-radius: 80px;
   -o-border-radius: 80px;
-  width: 170px;
+  width: 270px;
   height: 43px;
   color: #fff;
   border: 2px solid #fff;
@@ -954,6 +954,17 @@ main div.projeto-module {
   transition: 0.8s;
   outline: none;
   font-size: 1.6em;
+}
+
+#contato #formModal h5,
+#newsletterModal h5 {
+  color: #000;
+}
+
+#contato #formModal p,
+#newsletterModal p {
+  font-size: 1.6em;
+  padding: 16px;
 }
 
 /*=============================================
@@ -1215,7 +1226,7 @@ footer .novidades {
   height: 3.3rem;
 }
 
-footer .novidades input {
+footer .novidades form input {
   border: none;
   background-color: transparent;
   color: #212121;
@@ -1226,12 +1237,12 @@ footer .novidades input {
   font-size: 1.4em;
 }
 
-footer .novidades input:focus {
+footer .novidades form input:focus {
   outline: none;
   padding-left: 35px;
 }
 
-footer .novidades button {
+footer .novidades form button {
   background: rgb(195, 0, 251);
   background: linear-gradient(90deg, rgba(195, 0, 251, 1) 0%, rgba(7, 7, 76, 1) 100%);
   border: none;
@@ -1242,12 +1253,12 @@ footer .novidades button {
   -moz-border-radius: 32px;
   -ms-border-radius: 32px;
   -o-border-radius: 32px;
-  height: 73%;
+  height: 36px;
   width: 30%;
   font-size: 1.6em;
 }
 
-footer .novidades button:focus {
+footer .novidades form button:focus {
   outline: none;
 }
 
